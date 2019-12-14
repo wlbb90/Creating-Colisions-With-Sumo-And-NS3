@@ -1,0 +1,56 @@
+<routes>
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="300" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="200" decel="20" emergencyDecel="100" maxSpeed="200" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarWhite" length="5" color="white" minGap="1" minGapLat="0"/>
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="0" lcjmDriveRedSpeed="10" pushy="300" lcImpatience="300" accel="200" decel="100" emergencyDecel="100" maxSpeed="200" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarBlue" length="5" color="blue" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="300" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="200" decel="20" emergencyDecel="100" maxSpeed="200" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarRed" length="5" color="red" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="0" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="200" decel="20" emergencyDecel="100" maxSpeed="200" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarGreen" length="5" color="green" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="300" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="100" decel="20" emergencyDecel="100" maxSpeed="100" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarGray" length="5" color="gray" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="0" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="100" decel="20" emergencyDecel="100" maxSpeed="100" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarYellow" length="5" color="yellow" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="300" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="100" decel="20" emergencyDecel="100" maxSpeed="100" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarBlack" length="5" color="black" minGap="1" minGapLat="0" />
+
+	<vType sigma="0.5" lcAssertive="100" lcSpeedGain="100" jmIgnoreFoeSpeed="200" jmIgnoreFoeProb="200" jmDriveAfterRedTime="0" lcjmDriveRedSpeed="10"  lcpushy="300" lcImpatience="300" accel="100" decel="20" emergencyDecel="100" maxSpeed="100" minSpeed="50" departSpeed="random" arrivalLane="current" vClass="ignoring" id="CarOrange" length="5" color="orange" minGap="1" minGapLat="0" />
+
+	<route id="rout01" edges="ed0102 ed0206 ed0607 ed0708 ed0803 ed0304 ed0405 ed0501"/>
+	<route id="rout02" edges="ed0102 ed0208 ed0807 ed0706 ed0602 ed0208 ed0805 ed0501"/>
+	<route id="rout03" edges="ed0206 ed0607 ed0708 ed0805 ed0503 ed0304 ed0401 ed0102"/>
+	<route id="rout04" edges="ed0201 ed0104 ed0403 ed0308 ed0803 ed0304 ed0401"/>
+	<route id="rout05" edges="ed0305 ed0508 ed0802 ed0201 ed0105 ed0504 ed0405 ed0508 ed0802 ed0201 ed0105 ed0503"/>
+	<route id="rout06" edges="ed0304 ed0401 ed0105 ed0503 ed0308 ed0807 ed0706 ed0602 ed0208 ed0803"/>
+	<route id="rout07" edges="ed0405 ed0503 ed0308 ed0802 ed0206 ed0607 ed0708 ed0805 ed0504"/>
+	<route id="rout08" edges="ed0401 ed0105 ed0503 ed0308 ed0805 ed0504 ed0403 ed0305 ed0508 ed0807 ed0706 ed0602 ed0201 ed0105 ed0504"/>
+
+	<vehicle type="CarWhite" route="rout01" id="CarWhite01" depart="1" />
+	<vehicle type="CarBlue" route="rout02" id="CarBlue01" depart="1" />
+	<vehicle type="CarBlack" route="rout03" id="CarBlack01" depart="1" />
+	<vehicle type="CarGreen" route="rout04" id="CarGreen01" depart="1" />
+	<vehicle type="CarGray" route="rout05" id="CarGray01" depart="1" />
+	<vehicle type="CarYellow" route="rout06" id="CarYellow01" depart="1" />
+	<vehicle type="CarRed" route="rout07" id="CarRed01" depart="1" />
+	<vehicle type="CarOrange" route="rout08" id="CarOrange01" depart="1" />
+	
+	<vehicle type="CarWhite" route="rout08" id="CarWhite02" depart="1" />
+	<vehicle type="CarBlue" route="rout07" id="CarBlue02" depart="1" />
+	<vehicle type="CarBlack" route="rout06" id="CarBlack02" depart="1" />
+	<vehicle type="CarGreen" route="rout05" id="CarGreen02" depart="1" />
+	<vehicle type="CarGray" route="rout04" id="CarGray02" depart="1" />
+	<vehicle type="CarYellow" route="rout03" id="CarYellow02" depart="1" />
+	<vehicle type="CarRed" route="rout02" id="CarRed02" depart="1" />
+	<vehicle type="CarOrange" route="rout01" id="CarOrange02" depart="1" />
+
+	<vehicle type="CarWhite" route="rout02" id="CarWhite03" depart="1" />
+	<vehicle type="CarBlue" route="rout04" id="CarBlue03" depart="1" />
+	<vehicle type="CarBlack" route="rout06" id="CarBlack03" depart="1" />
+	<vehicle type="CarGreen" route="rout08" id="CarGreen03" depart="1" />
+	<vehicle type="CarGray" route="rout01" id="CarGray03" depart="1" />
+	<vehicle type="CarYellow" route="rout03" id="CarYellow03" depart="1" />
+	<vehicle type="CarRed" route="rout05" id="CarRed03" depart="1" />
+	<vehicle type="CarOrange" route="rout07" id="CarOrange03" depart="1" />
+
+
+</routes>

@@ -1,0 +1,16 @@
+Loading net-file from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_buslanes.net.xml'... done (76ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_vtypes.add.xml'... done (45ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_bus_stops.add.xml'... done (27ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_busses.rou.xml'... done (62ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_detectors.add.xml'... done (24ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_tls.add.xml'... done (5ms).
+Loading done.
+Performance: 
+ Duration: 15556ms
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles: 
+ Inserted: 0 (Loaded: 121)
+ Running: 0
+ Waiting: 0
+

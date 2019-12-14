@@ -1,0 +1,44 @@
+Loading net-file from '/home/wagner/TCC/Bologna_small-0.29.0/acosta_persontrips/acosta_peds.net.xml'... done (75ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/acosta_persontrips/acosta_vtypes.add.xml'... done (13ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/acosta_persontrips/acosta_bus_stops.add.xml'... done (1ms).
+Loading additional-files from '/home/wagner/TCC/Bologna_small-0.29.0/acosta_persontrips/acosta_tls2.add.xml'... done (8ms).
+Loading done.
+Warning: Environment variable SUMO_HOME is not set, schema resolution will use slow website lookups.
+Simulation started with time: 0.00
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1409.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1410.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1411.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1412.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1413.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1414.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1415.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1416.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1417.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1418.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1419.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1420.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1421.00.
+Warning: Collision of person '1618' and person '1913', lane=':39a_c0_0', time=1422.00.
+Warning: Person '3291' is jammed on edge ':78_w0', time=1661.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1877.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1880.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1881.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1883.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1884.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1885.00.
+Warning: Collision of person '3963' and person '4611', lane=':1b_c0_0', time=1886.00.
+Performance: 
+ Duration: 669550ms
+ Real time factor: 3.17228
+ UPS: 2200.731835
+Vehicles: 
+ Inserted: 4678 (Loaded: 5380)
+ Running: 896
+ Waiting: 506
+Persons: 
+ Inserted: 5511
+ Running: 1840
+ Jammed: 1
+
+DijkstraRouter answered 233818 queries and explored 12.88 edges on average.
+DijkstraRouter spent 2072ms answering queries (0.01ms on average).

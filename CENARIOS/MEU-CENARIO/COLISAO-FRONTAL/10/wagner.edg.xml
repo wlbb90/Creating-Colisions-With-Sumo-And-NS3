@@ -1,0 +1,26 @@
+<edges>
+	<edge from="nod01" id="ed0102" to="nod02"/>
+	<edge from="nod02" id="ed0201" to="nod01"/>
+	<edge from="nod02" id="ed0208" to="nod08"/>
+	<edge from="nod08" id="ed0802" to="nod02"/>
+	<edge from="nod08" id="ed0803" to="nod03"/>
+	<edge from="nod03" id="ed0308" to="nod08"/>
+	<edge from="nod03" id="ed0304" to="nod04"/>
+	<edge from="nod04" id="ed0403" to="nod03"/>
+	<edge from="nod04" id="ed0401" to="nod01"/>
+	<edge from="nod01" id="ed0104" to="nod04"/>
+	<edge from="nod01" id="ed0105" to="nod05"/>
+	<edge from="nod05" id="ed0503" to="nod03"/>
+	<edge from="nod02" id="ed0206" to="nod06"/>
+	<edge from="nod06" id="ed0607" to="nod07"/>
+	<edge from="nod07" id="ed0708" to="nod08"/>
+	<edge from="nod08" id="ed0805" to="nod05"/>
+	<edge from="nod05" id="ed0508" to="nod08"/>
+	<edge from="nod03" id="ed0305" to="nod05"/>
+	<edge from="nod05" id="ed0501" to="nod01"/>
+	<edge from="nod05" id="ed0504" to="nod04"/>
+	<edge from="nod04" id="ed0405" to="nod05"/>
+	<edge from="nod06" id="ed0602" to="nod02"/>
+	<edge from="nod07" id="ed0706" to="nod06"/>
+	<edge from="nod08" id="ed0807" to="nod07"/>
+</edges>

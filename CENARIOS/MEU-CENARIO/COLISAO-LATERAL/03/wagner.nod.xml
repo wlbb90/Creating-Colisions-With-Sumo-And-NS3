@@ -1,0 +1,10 @@
+<nodes>
+	<node id="nod01" x="0" y="0" type="traffic_light"/>
+	<node id="nod02" x="100" y="0" type="traffic_light"/>
+	<node id="nod03" x="100" y="100" type="traffic_light"/>
+	<node id="nod04" x="0" y="100" type="traffic_light"/>
+	<node id="nod05" x="50" y="50" type="traffic_light"/>
+	<node id="nod06" x="150" y="0" type="traffic_light"/>
+	<node id="nod07" x="150" y="50" type="traffic_light"/>
+	<node id="nod08" x="100" y="50" type="traffic_light"/>
+</nodes>

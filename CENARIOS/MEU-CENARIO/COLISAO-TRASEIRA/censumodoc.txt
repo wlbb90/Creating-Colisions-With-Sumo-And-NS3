@@ -1,0 +1,52 @@
+        WAGNER LUIZ BRAGA BZERRA - CRIAÇÃO DE CENÁRIO DO SUMO PARA GERAÇÃO DE COLISÕES TRASEIRAS- REDES DE COMPUTADORES - UNIVERSIDADE FEDERAL DO CEARÁ - CAMPUS DE QUIXADÁ.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>INSTALAÇÃO DO SUMO>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>	A versão que estou utilizando é a versao 1.0.0  que pode ser obtida através do link https://sourceforge.net/projects/sumo/files/ e a instalação do mesmo é be simples.  >>
+>>	Depois de extrair e entrar no diretório do sumo que foi baixado basta executar os comandos a seguir:                                                                    >>
+>>																						>>
+>>	$sudo apt update																			>>
+>>	$sudo apt-get install build-essential autoconf automake libxmu-dev default-jre g++ libproj-dev libgdal-dev libxerces-c3-dev libfox-1.6-dev				>>
+>>	$./configure																				>>
+>>	$make   << Este comando demora para ser finalizado, é um bom sinal.													>>
+>>	$sudo make install																			>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Para criação do primeiro cenário do sumo, me utilizei do tutorial disponbilizado pelo Professor Benjamin no seguite link:
+http://www.galirows.com.br/meublog/blog/introducao-ao-sumo/
+
+Neste tutorial ele mostra passo-a-passo como criar o primeiro nós, pontes e rotas, bem como a maneira correta de criar veículos, enfim, o básico para vermos o cenário rodando no SUMO.
+
+Depois de criar o primeiro cenário, observando-se que foram criado os arquivos ".nod.xml", ".edg.xml" e ".rou.xml" conforme o tutorial, será necessário a criação de mais dois arquivos, um ".net.xml" vazio e outro ".sumo.cfg" com os seguintes parâmetros inicialmente:
+
+
+	<configuration>
+	<input>
+		<net-file value="nome_do_arquivo.net.xml"/>
+		<route-files value="nome_do_arquivo.rou.xml"/>
+	</input>
+	</configuration>
+
+É preciso atentar-se que o arquivo ".sumo.cfg" está, em primeiro momento, apenas direcionando para os arquivos que foram criados com as rotas e o nós, é ele que será executado pelo SUMO.
+
+Depois de tudo criado é preciso que façamos uma compilação destes arquivos através de uma ferramenta do sumo chamada NETCONVERT. É um procedimento simples.
+O primeiro passo é direcionar-se através do terminal até o diretório onde estão os arquivos do cenário criado, em seguida utilizamos o seguinte comando:
+
+	$netconvert --node-files="nome_do_arquivo.nod.xml" --edge-files="nome_do_arquivo.edg.xml" --output-file="nome_do_arquivo.net.xml"
+
+Depois disso basta que abramos o aplicativo do sumo e nele devemos procurar pelo arquivo ".sumo.cfg", dessa forma veremos o cenário na tela da aplicação.
+
+Para gerar colisões traseiras partiremos do princípio de que o veículo á frente deve estar com velocidade menor que o veículo que vem atrás. Depois de diversas tentativas,
+percebemos que os veículos tem segurança habilitada no SUMO por padrão e por menor que seja a desaceleração o veículo sempre vai realizar a parada de maneira correta.
+Dessa forma para conseguirmos a colisão traseira definimos padrões para todos os veículos para aceleração (100), desaceleração(50), velocidade máxima(100), velocidade mínima(10),
+definimos a velocidade de partida como aleatória (random). Tudo isso conforme o seguinte tutorial:
+http://sumo.dlr.de/wiki/Definition_of_Vehicles,_Vehicle_Types,_and_Routes
+
+Então, como não houve colisão, alteramos a desaceleração de 1 dos 8 veículos para zero (CarWhite). Dessa forma podemos observar claramentes uma colisão traseira entre o carro alterado e outro
+carro parado no semáforo (CarBlack).
+
+Para que ficasse mais evidente definímos um tempo de parada pós colisão de número 10, onde os veículos não se movem, e depois os dois são removidos da simulação. Estes parâmetros são 
+definidos no arquivo "wagner.sumo.cfg" pelas funções "<collision.stoptime value="10"/>" e "<collision.action value="remove"/>", respectivamente. Este tutorial vai ajudar:
+http://sumo.dlr.de/wiki/Simulation/Safety 
+
+Para gerar colisões outras colisões traseiras, basta prosseguir com os mesmos parâmetros, mas realizando mudança em carros diferentes e alterando as rotas.

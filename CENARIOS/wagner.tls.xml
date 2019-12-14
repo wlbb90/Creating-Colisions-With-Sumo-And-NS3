@@ -1,0 +1,28 @@
+
+<tlLogic id="nod08" programID="wagnerTLS" offset="0" type="static">
+	<phase duration="20" state="ggggrrrrrrrrrrrr"/>
+	<phase duration="5" state="yyyyrrrrrrrrrrrr"/>
+	<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="5" state="GGGGGGGGGGGGGGGG"/>
+	<phase duration="1" state="yyyyyyyyyyyyyyyy"/>
+	<phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="20" state="rrrrggggrrrrrrrr"/>
+	<phase duration="5" state="rrrryyyyrrrrrrrr"/>
+	<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="5" state="GGGGGGGGGGGGGGGG"/>
+	<phase duration="1" state="yyyyyyyyyyyyyyyy"/>
+	<phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="20" state="rrrrrrrrggggrrrr"/>
+	<phase duration="5" state="rrrrrrrryyyyrrrr"/>
+	<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="5" state="GGGGGGGGGGGGGGGG"/>
+	<phase duration="1" state="yyyyyyyyyyyyyyyy"/>
+	<phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="20" state="rrrrrrrrrrrrgggg"/>
+	<phase duration="5" state="rrrrrrrrrrrryyyy"/>
+	<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+	<phase duration="5" state="GGGGGGGGGGGGGGGG"/>
+	<phase duration="1" state="yyyyyyyyyyyyyyyy"/>
+	<phase duration="5" state="rrrrrrrrrrrrrrrr"/>
+=</tlLogic>
+

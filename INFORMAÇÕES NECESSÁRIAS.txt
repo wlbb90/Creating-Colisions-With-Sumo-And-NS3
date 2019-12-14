@@ -1,0 +1,13 @@
+Quantidade de Veículos -  para nós é importante que sejam dois ou mais. Se forem mais de dois, cada colisão é analisada separadamente.
+Sentido - qual o sentido, se ele muda ou permanece.
+Frenagem - se houve frenagem, se foi brusca.
+Aceleração - se houve aumento ou redução repentina.
+Velocidade - se houve aumento ou redução repentina.
+Posição - para o NS-3 vemos os eixos X E Y.
+Momento de cada impacto - acredito que a melhor maneira de registras impactos no NS-3 seja uma sobreposição dos nós.
+
+Verificar essas informações para cada veículo. Essas informações devem ser armazenadas o tempo todo antes de uma colisão, numa espécia de armazenamento em loop de um período determinado. No momento que acontece a colisão a informação deve se guardada para uso na solução. Também planejamos um armazenamento pós-colisão de período igual ao do loop.
+
+É enviado um broadcast aos nós de um determinado perímetro para que também enviem suas informações à nuvem. Dessa forma podemos verificar se o causador foi alguém que não colidiu, um terceiro.
+
+O gatilho de início do processo seria a colisão.

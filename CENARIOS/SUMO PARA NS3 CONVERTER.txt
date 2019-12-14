@@ -1,0 +1,7 @@
+						CONVERSÃO DE ARQUIVOS SUMO PARA NS-3
+
+
+UTILIZAR OS COMANDO DO SUMO ABAIXO:
+
+	$ sumo -c wagner.sumo.cfg --fcd-output sumoTrace.xml
+	$ traceExporter.py --fcd-input sumoTrace.xml --ns2mobility-output ns2mobility.tcl

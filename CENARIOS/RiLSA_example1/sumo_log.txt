@@ -1,0 +1,16 @@
+Loading net-file from '/home/wagner/TCC/RiLSA_example1/rilsa1.net.xml'... done (4ms).
+Loading additional-files from '/home/wagner/TCC/RiLSA_example1/vtypes.add.xml'... 
+Warning: The shape 'transport' for vType 'LKW' is deprecated, use 'truck' instead.
+done (1ms).
+Loading additional-files from '/home/wagner/TCC/RiLSA_example1/rilsa1_tls.add.xml'... done (0ms).
+Loading done.
+Warning: Environment variable SUMO_HOME is not set, schema resolution will use slow website lookups.
+Performance: 
+ Duration: 843865ms
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles: 
+ Inserted: 0 (Loaded: 24)
+ Running: 0
+ Waiting: 0
+

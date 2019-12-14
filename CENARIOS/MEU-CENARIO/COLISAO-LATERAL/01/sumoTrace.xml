@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Nov  2 20:13:34 2019 by Eclipse SUMO Version 1.0.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="wagner.net.xml"/>
+        <route-files value="wagner.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="sumoTrace.xml"/>
+    </output>
+
+    <processing>
+        <collision.action value="remove"/>
+        <collision.stoptime value="10"/>
+        <collision.check-junctions value="true"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-impatience value="1"/>
+    </processing>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00"/>
+    <timestep time="1.00">
+        <vehicle id="CarBlack" x="87.70" y="1.60" angle="270.00" type="CarBlack" speed="0.00" pos="5.10" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="16.83" y="-1.60" angle="90.00" type="CarBlue" speed="0.00" pos="5.10" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="83.17" y="101.60" angle="270.00" type="CarGray" speed="0.00" pos="5.10" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="86.97" y="89.23" angle="225.00" type="CarGreen" speed="0.00" pos="5.10" lane="ed0305_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="83.17" angle="180.00" type="CarOrange" speed="0.00" pos="5.10" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="16.83" y="98.40" angle="90.00" type="CarWhite" speed="0.00" pos="5.10" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="10.77" y="86.97" angle="135.00" type="CarYellow" speed="0.00" pos="5.10" lane="ed0405_0" slope="0.00"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="CarBlack" x="77.60" y="1.60" angle="270.00" type="CarBlack" speed="10.10" pos="15.20" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="26.62" y="-1.60" angle="90.00" type="CarBlue" speed="9.79" pos="14.89" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="74.46" y="101.60" angle="270.00" type="CarGray" speed="8.72" pos="13.82" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="80.46" y="82.72" angle="225.00" type="CarGreen" speed="9.22" pos="14.32" lane="ed0305_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="72.52" angle="180.00" type="CarOrange" speed="10.65" pos="15.75" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="83.17" angle="180.00" type="CarRed" speed="0.00" pos="5.10" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="26.79" y="98.40" angle="90.00" type="CarWhite" speed="9.96" pos="15.06" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="19.01" y="78.73" angle="135.00" type="CarYellow" speed="11.65" pos="16.75" lane="ed0405_0" slope="0.00"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="CarBlack" x="66.46" y="1.60" angle="270.00" type="CarBlack" speed="11.14" pos="26.34" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="36.11" y="-1.60" angle="90.00" type="CarBlue" speed="9.49" pos="24.38" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="64.35" y="101.60" angle="270.00" type="CarGray" speed="10.11" pos="23.92" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="70.79" y="73.05" angle="225.00" type="CarGreen" speed="13.66" pos="27.98" lane="ed0305_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="60.73" angle="180.00" type="CarOrange" speed="11.79" pos="27.55" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="78.89" angle="180.00" type="CarRed" speed="4.28" pos="9.38" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="40.47" y="98.40" angle="90.00" type="CarWhite" speed="13.68" pos="28.74" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="26.81" y="70.93" angle="135.00" type="CarYellow" speed="11.03" pos="27.79" lane="ed0405_0" slope="0.00"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="CarBlack" x="57.21" y="1.60" angle="270.00" type="CarBlack" speed="9.25" pos="35.59" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="46.03" y="-1.60" angle="90.00" type="CarBlue" speed="9.92" pos="34.30" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="54.60" y="101.60" angle="270.00" type="CarGray" speed="9.75" pos="33.67" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="64.67" y="66.93" angle="225.00" type="CarGreen" speed="8.66" pos="36.65" lane="ed0305_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="53.50" angle="180.00" type="CarOrange" speed="7.22" pos="34.77" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="69.72" angle="180.00" type="CarRed" speed="9.17" pos="18.55" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="53.19" y="98.40" angle="90.00" type="CarWhite" speed="12.72" pos="41.46" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="35.85" y="61.89" angle="135.00" type="CarYellow" speed="12.79" pos="40.57" lane="ed0405_0" slope="0.00"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="CarBlack" x="43.92" y="1.60" angle="270.00" type="CarBlack" speed="13.29" pos="48.88" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="58.68" y="-1.60" angle="90.00" type="CarBlue" speed="12.65" pos="46.95" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="42.15" y="101.60" angle="270.00" type="CarGray" speed="12.45" pos="46.13" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="55.07" y="57.33" angle="225.00" type="CarGreen" speed="13.56" pos="2.95" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="40.17" angle="180.00" type="CarOrange" speed="13.33" pos="48.10" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="61.30" angle="180.00" type="CarRed" speed="8.42" pos="26.97" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="65.60" y="98.40" angle="90.00" type="CarWhite" speed="12.42" pos="53.88" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="41.36" y="56.38" angle="135.00" type="CarYellow" speed="7.79" pos="48.36" lane="ed0405_0" slope="0.00"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="CarBlack" x="34.37" y="1.60" angle="270.00" type="CarBlack" speed="9.55" pos="58.43" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="72.40" y="-1.60" angle="90.00" type="CarBlue" speed="13.72" pos="60.67" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="31.68" y="101.60" angle="270.00" type="CarGray" speed="10.47" pos="56.59" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="48.51" y="50.77" angle="225.00" type="CarGreen" speed="9.29" pos="12.24" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="29.24" angle="180.00" type="CarOrange" speed="10.94" pos="59.04" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="50.58" angle="180.00" type="CarRed" speed="10.72" pos="37.70" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="75.50" y="98.40" angle="90.00" type="CarWhite" speed="9.91" pos="63.78" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="8.49" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="7.00">
+        <vehicle id="CarBlack" x="23.81" y="1.60" angle="270.00" type="CarBlack" speed="10.56" pos="68.99" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="81.34" y="-1.60" angle="90.00" type="CarBlue" speed="8.94" pos="69.61" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="20.51" y="101.60" angle="270.00" type="CarGray" speed="11.18" pos="67.77" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="4.29" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="20.04" angle="180.00" type="CarOrange" speed="9.20" pos="68.24" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="42.56" angle="180.00" type="CarRed" speed="8.02" pos="45.71" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="82.50" y="98.40" angle="90.00" type="CarWhite" speed="6.99" pos="70.78" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="8.00">
+        <vehicle id="CarBlack" x="16.91" y="1.60" angle="270.00" type="CarBlack" speed="6.91" pos="75.89" lane="ed0201_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="90.50" y="-1.60" angle="90.00" type="CarBlue" speed="9.16" pos="78.77" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="14.77" y="101.60" angle="270.00" type="CarGray" speed="5.74" pos="73.51" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="14.90" angle="180.00" type="CarOrange" speed="5.13" pos="73.38" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="28.78" angle="180.00" type="CarRed" speed="13.79" pos="59.50" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="87.25" y="98.40" angle="90.00" type="CarWhite" speed="4.75" pos="75.53" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="9.00">
+        <vehicle id="CarBlack" x="8.45" y="2.07" angle="275.37" type="CarBlack" speed="8.49" pos="3.31" lane=":nod01_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="102.04" y="-1.60" angle="90.00" type="CarBlue" speed="11.54" pos="9.24" lane=":nod02_6_0" slope="0.00"/>
+        <vehicle id="CarGray" x="9.49" y="101.28" angle="266.33" type="CarGray" speed="5.31" pos="2.26" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-0.96" y="7.22" angle="172.62" type="CarOrange" speed="7.73" pos="4.55" lane=":nod01_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="24.25" angle="180.00" type="CarRed" speed="4.52" pos="64.02" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="93.87" y="97.07" angle="104.28" type="CarWhite" speed="6.86" pos="5.84" lane=":nod03_7_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="10.00">
+        <vehicle id="CarBlack" x="3.04" y="5.95" angle="312.85" type="CarBlack" speed="6.98" pos="10.29" lane=":nod01_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="113.68" y="-1.60" angle="90.00" type="CarBlue" speed="11.64" pos="6.48" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarGray" x="4.01" y="99.63" angle="251.83" type="CarGray" speed="5.83" pos="8.09" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="4.11" y="0.30" angle="133.45" type="CarOrange" speed="8.96" pos="13.51" lane=":nod01_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="17.52" angle="180.00" type="CarRed" speed="6.73" pos="70.76" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="98.05" y="90.75" angle="158.01" type="CarWhite" speed="7.99" pos="13.82" lane=":nod03_7_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="11.00">
+        <vehicle id="CarBlack" x="1.60" y="13.40" angle="354.60" type="CarBlack" speed="7.71" pos="1.67" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="126.04" y="-1.60" angle="90.00" type="CarBlue" speed="12.36" pos="18.84" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarGray" x="0.39" y="96.04" angle="224.41" type="CarGray" speed="5.26" pos="13.35" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="11.92" y="-1.60" angle="97.79" type="CarOrange" speed="8.17" pos="0.19" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.60" y="13.03" angle="180.00" type="CarRed" speed="4.49" pos="75.25" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="98.40" y="85.87" angle="175.79" type="CarWhite" speed="4.91" pos="2.40" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="12.00">
+        <vehicle id="CarBlack" x="1.60" y="24.12" angle="0.00" type="CarBlack" speed="10.73" pos="12.39" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="134.78" y="-1.60" angle="90.00" type="CarBlue" speed="8.74" pos="27.58" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.55" y="88.64" angle="188.10" type="CarGray" speed="7.77" pos="21.12" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="25.76" y="-1.60" angle="90.00" type="CarOrange" speed="13.84" pos="14.03" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-1.30" y="9.03" angle="176.52" type="CarRed" speed="4.01" pos="2.71" lane=":nod01_1_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="98.40" y="72.57" angle="180.00" type="CarWhite" speed="13.30" pos="15.70" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="13.00">
+        <vehicle id="CarBlack" x="1.60" y="33.99" angle="0.00" type="CarBlack" speed="9.87" pos="22.26" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="146.14" y="-1.60" angle="90.00" type="CarBlue" speed="11.36" pos="38.94" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="82.51" angle="180.00" type="CarGray" speed="6.13" pos="5.76" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="38.05" y="-1.60" angle="90.00" type="CarOrange" speed="12.29" pos="26.32" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="-0.55" y="5.11" angle="170.10" type="CarRed" speed="4.06" pos="6.78" lane=":nod01_1_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="98.40" y="65.22" angle="180.00" type="CarWhite" speed="7.35" pos="23.05" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="14.00">
+        <vehicle id="CarBlack" x="1.60" y="42.12" angle="0.00" type="CarBlack" speed="8.14" pos="30.40" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="150.50" y="-0.24" angle="73.60" type="CarBlue" speed="4.72" pos="4.06" lane=":nod06_2_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="70.09" angle="180.00" type="CarGray" speed="12.42" pos="18.18" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="49.79" y="-1.60" angle="90.00" type="CarOrange" speed="11.74" pos="38.06" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="2.78" y="3.04" angle="124.13" type="CarRed" speed="4.52" pos="11.30" lane=":nod01_1_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="98.40" y="58.67" angle="180.00" type="CarWhite" speed="6.56" pos="29.60" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="15.00">
+        <vehicle id="CarBlack" x="1.60" y="49.63" angle="0.00" type="CarBlack" speed="7.51" pos="37.91" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="3.46" angle="24.29" type="CarBlue" speed="3.94" pos="0.26" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="61.72" angle="180.00" type="CarGray" speed="8.37" pos="26.55" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="62.28" y="-1.60" angle="90.00" type="CarOrange" speed="12.49" pos="50.55" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="8.84" y="6.70" angle="51.38" type="CarRed" speed="7.27" pos="7.14" lane=":nod01_9_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="99.41" y="52.58" angle="168.15" type="CarWhite" speed="6.26" pos="4.79" lane=":nod08_2_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="16.00">
+        <vehicle id="CarBlack" x="1.60" y="61.48" angle="0.00" type="CarBlack" speed="11.85" pos="49.76" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="10.98" angle="0.00" type="CarBlue" speed="7.52" pos="7.78" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="50.05" angle="180.00" type="CarGray" speed="11.67" pos="38.22" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="74.67" y="-1.60" angle="90.00" type="CarOrange" speed="12.39" pos="62.94" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="11.54" y="9.28" angle="47.56" type="CarRed" speed="3.73" pos="2.99" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="104.86" y="48.73" angle="115.51" type="CarWhite" speed="7.03" pos="5.89" lane=":nod08_16_0" slope="0.00"/>
+        <vehicle id="CarYellow" x="48.21" y="51.78" angle="116.18" type="CarYellow" speed="0.00" pos="5.06" lane=":nod05_14_0" slope="0.00"/>
+    </timestep>
+    <timestep time="17.00">
+        <vehicle id="CarBlack" x="1.60" y="70.23" angle="0.00" type="CarBlack" speed="8.75" pos="58.51" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="23.60" angle="0.00" type="CarBlue" speed="12.61" pos="20.40" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="40.17" angle="180.00" type="CarGray" speed="9.89" pos="48.11" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGreen" x="45.47" y="47.73" angle="225.00" type="CarGreen" speed="0.00" pos="16.54" lane=":nod05_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="88.37" y="-1.60" angle="90.00" type="CarOrange" speed="13.71" pos="76.64" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="17.22" y="14.96" angle="45.00" type="CarRed" speed="8.03" pos="11.03" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="110.72" y="48.40" angle="92.41" type="CarWhite" speed="5.88" pos="3.52" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="18.00">
+        <vehicle id="CarBlack" x="1.60" y="80.60" angle="0.00" type="CarBlack" speed="10.37" pos="68.88" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="33.53" angle="0.00" type="CarBlue" speed="9.93" pos="30.33" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="32.54" angle="180.00" type="CarGray" speed="7.63" pos="55.74" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="95.14" y="-1.27" angle="86.16" type="CarOrange" speed="6.79" pos="2.36" lane=":nod02_7_0" slope="0.00"/>
+        <vehicle id="CarRed" x="25.43" y="23.17" angle="45.00" type="CarRed" speed="11.62" pos="22.64" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="117.84" y="48.40" angle="90.00" type="CarWhite" speed="7.12" pos="10.64" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="19.00">
+        <vehicle id="CarBlack" x="1.60" y="86.56" angle="0.00" type="CarBlack" speed="5.96" pos="74.84" lane="ed0104_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="40.89" angle="0.00" type="CarBlue" speed="7.36" pos="37.69" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="18.76" angle="180.00" type="CarGray" speed="13.78" pos="69.52" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="100.36" y="2.20" angle="48.60" type="CarOrange" speed="6.60" pos="3.04" lane=":nod02_10_0" slope="0.00"/>
+        <vehicle id="CarRed" x="33.67" y="31.41" angle="45.00" type="CarRed" speed="11.66" pos="34.30" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="131.18" y="48.40" angle="90.00" type="CarWhite" speed="13.35" pos="23.98" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="20.00">
+        <vehicle id="CarBlack" x="1.97" y="90.86" angle="4.23" type="CarBlack" speed="4.32" pos="2.61" lane=":nod04_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="151.60" y="46.78" angle="0.00" type="CarBlue" speed="5.89" pos="43.58" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.60" y="14.51" angle="180.00" type="CarGray" speed="4.25" pos="73.76" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="7.81" angle="9.36" type="CarOrange" speed="5.84" pos="0.61" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="42.27" y="40.01" angle="45.00" type="CarRed" speed="12.16" pos="46.46" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="144.78" y="48.40" angle="90.00" type="CarWhite" speed="13.59" pos="37.58" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="21.00">
+        <vehicle id="CarBlack" x="5.74" y="96.83" angle="41.39" type="CarBlack" speed="7.42" pos="10.04" lane=":nod04_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="149.10" y="51.18" angle="328.54" type="CarBlue" speed="5.41" pos="5.39" lane=":nod07_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-1.37" y="9.64" angle="177.30" type="CarGray" speed="4.89" pos="2.10" lane=":nod01_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="16.99" angle="0.00" type="CarOrange" speed="9.17" pos="9.79" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="45.77" y="43.51" angle="45.00" type="CarRed" speed="4.95" pos="51.41" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="146.92" y="48.38" angle="90.20" type="CarWhite" speed="2.15" pos="0.12" lane=":nod07_2_0" slope="0.00"/>
+    </timestep>
+    <timestep time="22.00">
+        <vehicle id="CarBlack" x="13.34" y="98.40" angle="84.50" type="CarBlack" speed="7.90" pos="1.61" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="143.32" y="51.60" angle="272.47" type="CarBlue" speed="5.83" pos="3.48" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarGray" x="-0.05" y="4.43" angle="165.04" type="CarGray" speed="5.52" pos="7.62" lane=":nod01_1_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="28.97" angle="0.00" type="CarOrange" speed="11.99" pos="21.77" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="48.56" y="47.63" angle="34.03" type="CarRed" speed="5.03" pos="4.65" lane=":nod05_10_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="148.40" y="45.75" angle="131.65" type="CarWhite" speed="3.50" pos="1.05" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="23.00">
+        <vehicle id="CarBlack" x="21.10" y="98.40" angle="90.00" type="CarBlack" speed="7.77" pos="9.38" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="131.93" y="51.60" angle="270.00" type="CarBlue" speed="11.40" pos="14.87" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarGray" x="3.18" y="3.10" angle="118.75" type="CarGray" speed="4.08" pos="0.27" lane=":nod01_9_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="37.05" angle="0.00" type="CarOrange" speed="8.08" pos="29.85" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="48.75" y="51.60" angle="5.45" type="CarRed" speed="4.10" pos="2.82" lane=":nod05_18_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="148.40" y="37.80" angle="180.00" type="CarWhite" speed="7.96" pos="9.00" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="24.00">
+        <vehicle id="CarBlack" x="33.35" y="98.40" angle="90.00" type="CarBlack" speed="12.24" pos="21.62" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="122.23" y="51.60" angle="270.00" type="CarBlue" speed="9.70" pos="24.57" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarGray" x="7.43" y="5.57" angle="59.58" type="CarGray" speed="5.06" pos="5.33" lane=":nod01_9_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="49.08" angle="0.00" type="CarOrange" speed="12.03" pos="6.28" lane=":nod08_9_0" slope="0.00"/>
+        <vehicle id="CarRed" x="45.69" y="56.57" angle="325.14" type="CarRed" speed="5.93" pos="0.49" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="148.40" y="29.85" angle="180.00" type="CarWhite" speed="7.94" pos="16.95" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="25.00">
+        <vehicle id="CarBlack" x="47.20" y="98.40" angle="90.00" type="CarBlack" speed="13.85" pos="35.47" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="113.42" y="51.60" angle="270.00" type="CarBlue" speed="8.80" pos="33.38" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarGray" x="12.48" y="10.22" angle="45.86" type="CarGray" speed="6.88" pos="4.33" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="59.01" angle="0.00" type="CarOrange" speed="9.93" pos="1.81" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="35.94" y="66.32" angle="315.00" type="CarRed" speed="13.79" pos="14.28" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="148.40" y="18.25" angle="180.00" type="CarWhite" speed="11.60" pos="28.55" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="26.00">
+        <vehicle id="CarBlack" x="55.80" y="98.40" angle="90.00" type="CarBlack" speed="8.60" pos="44.08" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="107.73" y="51.60" angle="270.00" type="CarBlue" speed="5.69" pos="39.07" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarGray" x="19.14" y="16.88" angle="45.00" type="CarGray" speed="9.42" pos="13.74" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="68.22" angle="0.00" type="CarOrange" speed="9.21" pos="11.02" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="30.89" y="71.37" angle="315.00" type="CarRed" speed="7.14" pos="21.43" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="148.40" y="4.72" angle="180.00" type="CarWhite" speed="13.53" pos="42.08" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="27.00">
+        <vehicle id="CarBlack" x="66.02" y="98.40" angle="90.00" type="CarBlack" speed="10.22" pos="54.29" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="96.78" y="51.60" angle="270.00" type="CarBlue" speed="10.94" pos="10.42" lane=":nod08_5_0" slope="0.00"/>
+        <vehicle id="CarGray" x="26.29" y="24.03" angle="45.00" type="CarGray" speed="10.11" pos="23.85" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.60" y="81.06" angle="0.00" type="CarOrange" speed="12.85" pos="23.86" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="23.62" y="78.64" angle="315.00" type="CarRed" speed="10.29" pos="31.71" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="147.78" y="1.87" angle="187.35" type="CarWhite" speed="3.07" pos="1.54" lane=":nod06_0_0" slope="0.00"/>
+    </timestep>
+    <timestep time="28.00">
+        <vehicle id="CarBlack" x="76.05" y="98.40" angle="90.00" type="CarBlack" speed="10.03" pos="64.33" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="89.39" y="51.60" angle="270.00" type="CarBlue" speed="7.40" pos="3.41" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarGray" x="34.84" y="32.58" angle="45.00" type="CarGray" speed="12.09" pos="35.94" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="101.33" y="90.19" angle="356.85" type="CarOrange" speed="9.15" pos="1.94" lane=":nod03_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="18.67" y="83.59" angle="315.00" type="CarRed" speed="7.00" pos="38.71" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="144.19" y="1.60" angle="251.41" type="CarWhite" speed="3.65" pos="2.61" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="29.00">
+        <vehicle id="CarBlack" x="87.21" y="98.40" angle="90.00" type="CarBlack" speed="11.16" pos="75.49" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="77.47" y="51.60" angle="270.00" type="CarBlue" speed="11.92" pos="15.33" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarGray" x="40.68" y="38.42" angle="45.00" type="CarGray" speed="8.26" pos="44.20" lane="ed0105_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="97.93" y="98.47" angle="326.90" type="CarOrange" speed="9.20" pos="11.14" lane=":nod03_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="9.80" y="92.46" angle="315.00" type="CarRed" speed="12.55" pos="51.26" lane="ed0504_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="131.62" y="1.60" angle="270.00" type="CarWhite" speed="12.57" pos="15.18" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="30.00">
+        <vehicle id="CarBlack" x="91.63" y="97.92" angle="95.50" type="CarBlack" speed="4.46" pos="3.40" lane=":nod03_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="69.64" y="51.60" angle="270.00" type="CarBlue" speed="7.83" pos="23.16" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarGray" x="46.99" y="44.73" angle="45.00" type="CarGray" speed="8.93" pos="1.34" lane=":nod05_9_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="90.49" y="101.28" angle="284.25" type="CarOrange" speed="8.11" pos="19.25" lane=":nod03_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="7.93" y="94.70" angle="318.05" type="CarRed" speed="2.92" pos="2.39" lane=":nod04_3_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="122.37" y="1.60" angle="270.00" type="CarWhite" speed="9.25" pos="24.43" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="31.00">
+        <vehicle id="CarBlack" x="97.63" y="92.94" angle="140.26" type="CarBlack" speed="8.19" pos="11.58" lane=":nod03_7_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="65.43" y="51.60" angle="270.00" type="CarBlue" speed="4.21" pos="27.37" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarGray" x="55.38" y="53.12" angle="45.00" type="CarGray" speed="11.87" pos="13.21" lane=":nod05_9_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="82.82" y="101.60" angle="270.00" type="CarOrange" speed="7.69" pos="5.45" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="9.33" y="98.13" angle="21.36" type="CarRed" speed="4.94" pos="7.32" lane=":nod04_3_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="112.38" y="1.60" angle="270.00" type="CarWhite" speed="9.99" pos="34.42" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="32.00">
+        <vehicle id="CarBlack" x="98.40" y="85.47" angle="176.44" type="CarBlack" speed="7.55" pos="2.80" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="63.24" y="51.60" angle="270.00" type="CarBlue" speed="2.20" pos="29.56" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarGray" x="63.02" y="60.76" angle="45.00" type="CarGray" speed="10.81" pos="5.09" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="73.02" y="101.60" angle="270.00" type="CarOrange" speed="9.81" pos="15.25" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="14.34" y="98.40" angle="86.92" type="CarRed" speed="5.03" pos="2.61" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="101.43" y="1.60" angle="270.00" type="CarWhite" speed="10.95" pos="5.77" lane=":nod02_4_0" slope="0.00"/>
+    </timestep>
+    <timestep time="33.00">
+        <vehicle id="CarBlack" x="98.40" y="77.19" angle="180.00" type="CarBlack" speed="8.28" pos="11.08" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="58.63" y="51.95" angle="274.03" type="CarBlue" speed="4.63" pos="3.12" lane=":nod05_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="70.28" y="68.02" angle="45.00" type="CarGray" speed="10.27" pos="15.36" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="62.52" y="101.60" angle="270.00" type="CarOrange" speed="10.50" pos="25.76" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="24.10" y="98.40" angle="90.00" type="CarRed" speed="9.76" pos="12.37" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="89.15" y="1.60" angle="270.00" type="CarWhite" speed="12.28" pos="3.65" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="34.00">
+        <vehicle id="CarBlack" x="98.40" y="69.31" angle="180.00" type="CarBlack" speed="7.88" pos="18.96" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="57.47" y="54.68" angle="317.30" type="CarBlue" speed="3.46" pos="6.58" lane=":nod05_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="78.44" y="76.18" angle="45.00" type="CarGray" speed="11.54" pos="26.90" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="51.40" y="101.60" angle="270.00" type="CarOrange" speed="11.12" pos="36.88" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="31.96" y="98.40" angle="90.00" type="CarRed" speed="7.86" pos="20.23" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="78.79" y="1.60" angle="270.00" type="CarWhite" speed="10.35" pos="14.01" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="35.00">
+        <vehicle id="CarBlack" x="98.40" y="55.58" angle="180.00" type="CarBlack" speed="13.73" pos="1.62" lane=":nod08_1_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="59.91" y="57.65" angle="32.38" type="CarBlue" speed="3.84" pos="0.69" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="85.75" y="83.49" angle="45.00" type="CarGray" speed="10.34" pos="37.24" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="38.89" y="101.60" angle="270.00" type="CarOrange" speed="12.51" pos="49.39" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="40.07" y="98.40" angle="90.00" type="CarRed" speed="8.11" pos="28.34" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="68.06" y="1.60" angle="270.00" type="CarWhite" speed="10.74" pos="24.74" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="36.00">
+        <vehicle id="CarBlack" x="98.40" y="44.16" angle="180.00" type="CarBlack" speed="11.43" pos="13.04" lane=":nod08_1_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="66.97" y="64.71" angle="45.00" type="CarBlue" speed="9.99" pos="10.68" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="92.11" y="89.85" angle="45.00" type="CarGray" speed="8.99" pos="46.23" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="30.85" y="101.60" angle="270.00" type="CarOrange" speed="8.04" pos="57.43" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="52.06" y="98.40" angle="90.00" type="CarRed" speed="12.00" pos="40.34" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="58.61" y="1.60" angle="270.00" type="CarWhite" speed="9.45" pos="34.19" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="37.00">
+        <vehicle id="CarBlack" x="98.40" y="31.50" angle="180.00" type="CarBlack" speed="12.66" pos="11.30" lane="ed0802_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="73.31" y="71.05" angle="45.00" type="CarBlue" speed="8.96" pos="19.65" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="95.07" y="92.36" angle="48.66" type="CarGray" speed="3.89" pos="2.86" lane=":nod03_3_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="21.76" y="101.60" angle="270.00" type="CarOrange" speed="9.09" pos="66.52" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="64.99" y="98.40" angle="90.00" type="CarRed" speed="12.93" pos="53.27" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="49.11" y="1.60" angle="270.00" type="CarWhite" speed="9.50" pos="43.69" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="38.00">
+        <vehicle id="CarBlack" x="98.40" y="23.97" angle="180.00" type="CarBlack" speed="7.53" pos="18.83" lane="ed0802_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="82.78" y="80.52" angle="45.00" type="CarBlue" speed="13.39" pos="33.04" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="97.97" y="91.48" angle="90.46" type="CarGray" speed="3.63" pos="6.49" lane=":nod03_3_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="15.84" y="101.60" angle="270.00" type="CarOrange" speed="5.92" pos="72.44" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarRed" x="72.80" y="98.40" angle="90.00" type="CarRed" speed="7.80" pos="61.07" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="36.11" y="1.60" angle="270.00" type="CarWhite" speed="13.00" pos="56.69" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="39.00">
+        <vehicle id="CarBlack" x="98.40" y="14.37" angle="180.00" type="CarBlack" speed="9.60" pos="28.43" lane="ed0802_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="89.15" y="86.89" angle="45.00" type="CarBlue" speed="9.01" pos="42.04" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="98.40" y="86.10" angle="176.35" type="CarGray" speed="5.42" pos="2.17" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="10.79" y="101.47" angle="268.47" type="CarOrange" speed="5.06" pos="0.95" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="81.01" y="98.40" angle="90.00" type="CarRed" speed="8.21" pos="69.29" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="28.79" y="1.60" angle="270.00" type="CarWhite" speed="7.32" pos="64.01" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="40.00">
+        <vehicle id="CarBlack" x="98.40" y="9.24" angle="180.00" type="CarBlack" speed="5.13" pos="33.56" lane="ed0802_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="91.29" y="89.03" angle="45.00" type="CarBlue" speed="3.03" pos="45.07" lane="ed0503_0" slope="0.00"/>
+        <vehicle id="CarGray" x="98.40" y="78.53" angle="180.00" type="CarGray" speed="7.58" pos="9.74" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="3.36" y="99.25" angle="248.36" type="CarOrange" speed="7.90" pos="8.84" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="85.12" y="98.40" angle="90.00" type="CarRed" speed="4.11" pos="73.40" lane="ed0403_0" slope="0.00"/>
+        <vehicle id="CarWhite" x="21.71" y="1.60" angle="270.00" type="CarWhite" speed="7.08" pos="71.09" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="41.00">
+        <vehicle id="CarBlack" x="98.78" y="4.57" angle="175.68" type="CarBlack" speed="4.69" pos="2.66" lane=":nod02_1_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="94.50" y="92.65" angle="41.61" type="CarBlue" speed="4.84" pos="2.65" lane=":nod03_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="98.40" y="70.73" angle="180.00" type="CarGray" speed="7.79" pos="17.54" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-0.63" y="94.33" angle="213.14" type="CarOrange" speed="6.50" pos="15.34" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="90.49" y="98.15" angle="92.88" type="CarRed" speed="5.39" pos="2.23" lane=":nod03_6_0" slope="0.00"/>
+    </timestep>
+    <timestep time="42.00">
+        <vehicle id="CarBlack" x="103.61" y="-1.09" angle="128.32" type="CarBlack" speed="7.91" pos="10.56" lane=":nod02_1_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="96.91" y="96.88" angle="29.76" type="CarBlue" speed="5.01" pos="7.66" lane=":nod03_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="98.40" y="60.66" angle="180.00" type="CarGray" speed="10.08" pos="27.61" lane="ed0308_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="85.46" angle="183.56" type="CarOrange" speed="8.95" pos="2.81" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="92.52" y="95.29" angle="137.91" type="CarRed" speed="4.38" pos="6.61" lane=":nod03_6_0" slope="0.00"/>
+    </timestep>
+    <timestep time="43.00">
+        <vehicle id="CarBlack" x="108.58" y="-1.60" angle="95.88" type="CarBlack" speed="5.01" pos="1.38" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="94.98" y="100.49" angle="333.69" type="CarBlue" speed="4.76" pos="12.43" lane=":nod03_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="99.02" y="53.23" angle="172.85" type="CarGray" speed="7.48" pos="4.02" lane=":nod08_2_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="74.85" angle="180.00" type="CarOrange" speed="10.62" pos="13.42" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="89.18" y="91.44" angle="221.14" type="CarRed" speed="5.11" pos="1.98" lane="ed0305_0" slope="0.00"/>
+    </timestep>
+    <timestep time="44.00">
+        <vehicle id="CarBlack" x="118.45" y="-1.60" angle="90.00" type="CarBlack" speed="9.87" pos="11.25" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="90.00" y="101.41" angle="279.70" type="CarBlue" speed="5.14" pos="17.57" lane=":nod03_4_0" slope="0.00"/>
+        <vehicle id="CarGray" x="103.58" y="48.92" angle="128.61" type="CarGray" speed="6.51" pos="4.60" lane=":nod08_16_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="61.72" angle="180.00" type="CarOrange" speed="13.13" pos="26.56" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="82.84" y="85.10" angle="225.00" type="CarRed" speed="8.96" pos="10.94" lane="ed0305_0" slope="0.00"/>
+    </timestep>
+    <timestep time="45.00">
+        <vehicle id="CarBlack" x="129.54" y="-1.60" angle="90.00" type="CarBlack" speed="11.09" pos="22.34" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="82.64" y="101.60" angle="270.00" type="CarBlue" speed="7.37" pos="5.63" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="110.97" y="48.40" angle="91.99" type="CarGray" speed="7.43" pos="3.77" lane="ed0807_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="52.72" angle="180.00" type="CarOrange" speed="9.00" pos="35.56" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="75.23" y="77.49" angle="225.00" type="CarRed" speed="10.76" pos="21.70" lane="ed0305_0" slope="0.00"/>
+    </timestep>
+    <timestep time="46.00">
+        <vehicle id="CarBlack" x="141.91" y="-1.60" angle="90.00" type="CarBlack" speed="12.36" pos="34.71" lane="ed0206_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="73.85" y="101.60" angle="270.00" type="CarBlue" speed="8.80" pos="14.43" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="119.84" y="48.40" angle="90.00" type="CarGray" speed="8.87" pos="12.64" lane="ed0807_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="41.98" angle="180.00" type="CarOrange" speed="10.74" pos="46.30" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="68.38" y="70.64" angle="225.00" type="CarRed" speed="9.69" pos="31.39" lane="ed0305_0" slope="0.00"/>
+    </timestep>
+    <timestep time="47.00">
+        <vehicle id="CarBlack" x="147.33" y="-1.52" angle="89.13" type="CarBlack" speed="5.43" pos="0.54" lane=":nod06_2_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="64.81" y="101.60" angle="270.00" type="CarBlue" speed="9.04" pos="23.46" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="132.26" y="48.40" angle="90.00" type="CarGray" speed="12.42" pos="25.06" lane="ed0807_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="28.79" angle="180.00" type="CarOrange" speed="13.19" pos="59.49" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="59.28" y="61.54" angle="225.00" type="CarRed" speed="12.87" pos="44.26" lane="ed0305_0" slope="0.00"/>
+    </timestep>
+    <timestep time="48.00">
+        <vehicle id="CarBlack" x="150.64" y="0.00" angle="70.43" type="CarBlack" speed="3.80" pos="4.34" lane=":nod06_2_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="52.57" y="101.60" angle="270.00" type="CarBlue" speed="12.24" pos="35.71" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="142.49" y="48.40" angle="90.00" type="CarGray" speed="10.23" pos="35.29" lane="ed0807_0" slope="0.00"/>
+        <vehicle id="CarOrange" x="-1.60" y="18.27" angle="180.00" type="CarOrange" speed="10.52" pos="70.01" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarRed" x="56.68" y="58.81" angle="224.01" type="CarRed" speed="3.78" pos="0.78" lane=":nod05_2_0" slope="0.00"/>
+    </timestep>
+    <timestep time="49.00">
+        <vehicle id="CarBlack" x="151.60" y="3.26" angle="26.65" type="CarBlack" speed="3.47" pos="0.06" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="42.51" y="101.60" angle="270.00" type="CarBlue" speed="10.06" pos="45.76" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="145.58" y="48.40" angle="90.00" type="CarGray" speed="3.09" pos="38.38" lane="ed0807_0" slope="0.00"/>
+        <vehicle id="CarRed" x="53.14" y="53.45" angle="211.75" type="CarRed" speed="6.56" pos="7.34" lane=":nod05_2_0" slope="0.00"/>
+    </timestep>
+    <timestep time="50.00">
+        <vehicle id="CarBlack" x="151.60" y="13.19" angle="0.00" type="CarBlack" speed="9.93" pos="9.99" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="31.55" y="101.60" angle="270.00" type="CarBlue" speed="10.96" pos="56.73" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.13" y="47.78" angle="97.41" type="CarGray" speed="2.77" pos="1.55" lane=":nod07_2_0" slope="0.00"/>
+        <vehicle id="CarRed" x="56.54" y="48.98" angle="126.70" type="CarRed" speed="6.75" pos="6.38" lane=":nod05_16_0" slope="0.00"/>
+    </timestep>
+    <timestep time="51.00">
+        <vehicle id="CarBlack" x="151.60" y="21.97" angle="0.00" type="CarBlack" speed="8.78" pos="18.77" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="22.03" y="101.60" angle="270.00" type="CarBlue" speed="9.53" pos="66.25" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="44.53" angle="155.70" type="CarGray" speed="3.30" pos="2.27" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="62.43" y="48.40" angle="95.51" type="CarRed" speed="5.92" pos="0.70" lane="ed0508_0" slope="0.00"/>
+    </timestep>
+    <timestep time="52.00">
+        <vehicle id="CarBlack" x="151.60" y="32.34" angle="0.00" type="CarBlack" speed="10.37" pos="29.14" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="15.55" y="101.60" angle="270.00" type="CarBlue" speed="6.48" pos="72.73" lane="ed0304_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="36.19" angle="180.00" type="CarGray" speed="8.34" pos="10.61" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="74.14" y="48.40" angle="90.00" type="CarRed" speed="11.71" pos="12.41" lane="ed0508_0" slope="0.00"/>
+    </timestep>
+    <timestep time="53.00">
+        <vehicle id="CarBlack" x="151.60" y="43.74" angle="0.00" type="CarBlack" speed="11.40" pos="40.54" lane="ed0607_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="8.19" y="101.10" angle="264.20" type="CarBlue" speed="7.39" pos="3.58" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="22.67" angle="180.00" type="CarGray" speed="13.51" pos="24.13" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="81.35" y="48.40" angle="90.00" type="CarRed" speed="7.21" pos="19.62" lane="ed0508_0" slope="0.00"/>
+    </timestep>
+    <timestep time="54.00">
+        <vehicle id="CarBlack" x="151.34" y="48.65" angle="356.97" type="CarBlack" speed="4.93" pos="1.87" lane=":nod07_0_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="2.64" y="98.82" angle="244.49" type="CarBlue" speed="6.11" pos="9.68" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="15.61" angle="180.00" type="CarGray" speed="7.06" pos="31.19" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="92.56" y="48.40" angle="90.00" type="CarRed" speed="11.21" pos="30.83" lane="ed0508_0" slope="0.00"/>
+    </timestep>
+    <timestep time="55.00">
+        <vehicle id="CarBlack" x="147.86" y="51.45" angle="310.50" type="CarBlack" speed="4.80" pos="6.67" lane=":nod07_0_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.10" y="91.77" angle="200.21" type="CarBlue" speed="8.27" pos="17.96" lane=":nod04_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="6.36" angle="180.00" type="CarGray" speed="9.25" pos="40.44" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="101.13" y="48.40" angle="90.00" type="CarRed" speed="8.56" pos="8.33" lane=":nod08_13_0" slope="0.00"/>
+    </timestep>
+    <timestep time="56.00">
+        <vehicle id="CarBlack" x="142.14" y="51.60" angle="270.55" type="CarBlack" speed="5.73" pos="4.66" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="83.43" angle="180.25" type="CarBlue" speed="8.38" pos="4.84" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="148.40" y="4.01" angle="180.00" type="CarGray" speed="2.35" pos="42.79" lane="ed0706_0" slope="0.00"/>
+        <vehicle id="CarRed" x="108.62" y="48.40" angle="90.00" type="CarRed" speed="7.49" pos="1.42" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="57.00">
+        <vehicle id="CarBlack" x="134.80" y="51.60" angle="270.00" type="CarBlack" speed="7.34" pos="12.00" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="76.42" angle="180.00" type="CarBlue" speed="7.01" pos="11.85" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="147.98" y="1.99" angle="184.92" type="CarGray" speed="2.13" pos="1.31" lane=":nod06_0_0" slope="0.00"/>
+        <vehicle id="CarRed" x="115.63" y="48.40" angle="90.00" type="CarRed" speed="7.02" pos="8.43" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="58.00">
+        <vehicle id="CarBlack" x="124.79" y="51.60" angle="270.00" type="CarBlack" speed="10.00" pos="22.01" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="68.82" angle="180.00" type="CarBlue" speed="7.60" pos="19.45" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="146.01" y="1.60" angle="216.47" type="CarGray" speed="2.05" pos="0.79" lane="ed0602_0" slope="0.00"/>
+        <vehicle id="CarRed" x="127.18" y="48.40" angle="90.00" type="CarRed" speed="11.55" pos="19.98" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="59.00">
+        <vehicle id="CarBlack" x="111.08" y="51.60" angle="270.00" type="CarBlack" speed="13.72" pos="35.72" lane="ed0708_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="58.40" angle="180.00" type="CarBlue" speed="10.42" pos="29.88" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="132.58" y="1.60" angle="270.00" type="CarGray" speed="13.43" pos="14.22" lane="ed0602_0" slope="0.00"/>
+        <vehicle id="CarRed" x="135.09" y="48.40" angle="90.00" type="CarRed" speed="7.90" pos="27.89" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="60.00">
+        <vehicle id="CarBlack" x="97.88" y="51.60" angle="270.00" type="CarBlack" speed="13.20" pos="9.32" lane=":nod08_5_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="44.64" angle="180.00" type="CarBlue" speed="13.76" pos="43.63" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="121.16" y="1.60" angle="270.00" type="CarGray" speed="11.43" pos="25.64" lane="ed0602_0" slope="0.00"/>
+        <vehicle id="CarRed" x="143.46" y="48.40" angle="90.00" type="CarRed" speed="8.37" pos="36.26" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="61.00">
+        <vehicle id="CarBlack" x="89.45" y="51.60" angle="270.00" type="CarBlack" speed="8.43" pos="3.35" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="30.92" angle="180.00" type="CarBlue" speed="13.72" pos="57.35" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="109.85" y="1.60" angle="270.00" type="CarGray" speed="11.30" pos="36.95" lane="ed0602_0" slope="0.00"/>
+        <vehicle id="CarRed" x="146.06" y="48.40" angle="90.00" type="CarRed" speed="2.60" pos="38.86" lane="ed0807_0" slope="0.00"/>
+    </timestep>
+    <timestep time="62.00">
+        <vehicle id="CarBlack" x="77.25" y="51.60" angle="270.00" type="CarBlack" speed="12.20" pos="15.55" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="23.62" angle="180.00" type="CarBlue" speed="7.31" pos="64.66" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="104.16" y="2.30" angle="278.21" type="CarGray" speed="5.81" pos="3.16" lane=":nod02_3_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.17" y="47.72" angle="98.13" type="CarRed" speed="2.36" pos="1.62" lane=":nod07_2_0" slope="0.00"/>
+    </timestep>
+    <timestep time="63.00">
+        <vehicle id="CarBlack" x="68.98" y="51.60" angle="270.00" type="CarBlack" speed="8.27" pos="23.82" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.60" y="16.99" angle="180.00" type="CarBlue" speed="6.63" pos="71.29" lane="ed0401_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.89" y="5.17" angle="314.48" type="CarGray" speed="3.82" pos="6.98" lane=":nod02_3_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="45.13" angle="144.21" type="CarRed" speed="2.63" pos="1.67" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="64.00">
+        <vehicle id="CarBlack" x="64.96" y="51.60" angle="270.00" type="CarBlack" speed="4.03" pos="27.84" lane="ed0805_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="-1.18" y="8.80" angle="175.21" type="CarBlue" speed="8.21" pos="2.95" lane=":nod01_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="10.95" angle="357.97" type="CarGray" speed="5.80" pos="3.75" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="36.62" angle="180.00" type="CarRed" speed="8.51" pos="10.18" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="65.00">
+        <vehicle id="CarBlack" x="56.74" y="51.30" angle="266.53" type="CarBlack" speed="8.23" pos="5.00" lane=":nod05_6_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="1.22" y="2.58" angle="154.15" type="CarBlue" speed="6.80" pos="9.76" lane=":nod01_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="18.74" angle="0.00" type="CarGray" speed="7.79" pos="11.54" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="27.80" angle="180.00" type="CarRed" speed="8.82" pos="19.00" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="66.00">
+        <vehicle id="CarBlack" x="46.10" y="47.80" angle="243.73" type="CarBlack" speed="11.32" pos="16.32" lane=":nod05_6_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="8.69" y="-1.17" angle="108.06" type="CarBlue" speed="8.66" pos="18.42" lane=":nod01_0_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="27.58" angle="0.00" type="CarGray" speed="8.84" pos="20.38" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="20.34" angle="180.00" type="CarRed" speed="7.45" pos="26.46" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="67.00">
+        <vehicle id="CarBlack" x="37.80" y="40.06" angle="225.00" type="CarBlack" speed="11.37" pos="8.46" lane="ed0501_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="13.63" y="-1.60" angle="95.02" type="CarBlue" speed="4.97" pos="1.90" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="37.80" angle="0.00" type="CarGray" speed="10.22" pos="30.60" lane="ed0208_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="7.60" angle="180.00" type="CarRed" speed="12.74" pos="39.20" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="68.00">
+        <vehicle id="CarBlack" x="28.63" y="30.89" angle="225.00" type="CarBlack" speed="12.97" pos="21.43" lane="ed0501_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="22.51" y="-1.60" angle="90.00" type="CarBlue" speed="8.88" pos="10.78" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="46.90" angle="0.00" type="CarGray" speed="9.10" pos="4.10" lane=":nod08_9_0" slope="0.00"/>
+        <vehicle id="CarRed" x="148.40" y="3.93" angle="180.00" type="CarRed" speed="3.67" pos="42.87" lane="ed0706_0" slope="0.00"/>
+    </timestep>
+    <timestep time="69.00">
+        <vehicle id="CarBlack" x="21.72" y="23.98" angle="225.00" type="CarBlack" speed="9.77" pos="31.19" lane="ed0501_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="30.80" y="-1.60" angle="90.00" type="CarBlue" speed="8.29" pos="19.07" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="58.40" angle="0.00" type="CarGray" speed="11.50" pos="1.20" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="146.35" y="1.60" angle="209.83" type="CarRed" speed="3.76" pos="0.45" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="70.00">
+        <vehicle id="CarBlack" x="14.53" y="16.79" angle="225.00" type="CarBlack" speed="10.17" pos="41.36" lane="ed0501_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="38.95" y="-1.60" angle="90.00" type="CarBlue" speed="8.15" pos="27.22" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="71.72" angle="0.00" type="CarGray" speed="13.32" pos="14.52" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="133.58" y="1.60" angle="270.00" type="CarRed" speed="12.77" pos="13.22" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="71.00">
+        <vehicle id="CarBlack" x="8.69" y="10.95" angle="225.00" type="CarBlack" speed="8.26" pos="49.63" lane="ed0501_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="51.08" y="-1.60" angle="90.00" type="CarBlue" speed="12.13" pos="39.35" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarGray" x="101.60" y="78.77" angle="0.00" type="CarGray" speed="7.05" pos="21.57" lane="ed0803_0" slope="0.00"/>
+        <vehicle id="CarRed" x="119.96" y="1.60" angle="270.00" type="CarRed" speed="13.62" pos="26.84" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="72.00">
+        <vehicle id="CarBlack" x="5.12" y="6.87" angle="220.82" type="CarBlack" speed="5.43" pos="3.27" lane=":nod01_4_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="62.12" y="-1.60" angle="90.00" type="CarBlue" speed="11.04" pos="50.39" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="112.08" y="1.60" angle="270.00" type="CarRed" speed="7.88" pos="34.72" lane="ed0602_0" slope="0.00"/>
+    </timestep>
+    <timestep time="73.00">
+        <vehicle id="CarBlack" x="3.15" y="3.56" angle="212.44" type="CarBlack" speed="3.95" pos="7.22" lane=":nod01_4_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="70.14" y="-1.60" angle="90.00" type="CarBlue" speed="8.03" pos="58.41" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="104.19" y="1.60" angle="270.00" type="CarRed" speed="7.89" pos="3.01" lane=":nod02_4_0" slope="0.00"/>
+    </timestep>
+    <timestep time="74.00">
+        <vehicle id="CarBlack" x="4.25" y="0.08" angle="166.90" type="CarBlack" speed="4.24" pos="11.46" lane=":nod01_4_0" slope="0.00"/>
+        <vehicle id="CarBlue" x="81.19" y="-1.60" angle="90.00" type="CarBlue" speed="11.05" pos="69.46" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="95.05" y="1.60" angle="270.00" type="CarRed" speed="9.14" pos="12.15" lane=":nod02_4_0" slope="0.00"/>
+    </timestep>
+    <timestep time="75.00">
+        <vehicle id="CarBlack" x="8.45" y="-1.23" angle="109.11" type="CarBlack" speed="4.55" pos="16.01" lane=":nod01_4_0" slope="0.00"/>
+        <vehicle id="CarRed" x="83.99" y="1.60" angle="270.00" type="CarRed" speed="11.06" pos="8.81" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="76.00">
+        <vehicle id="CarBlack" x="12.89" y="-1.60" angle="94.93" type="CarBlack" speed="4.46" pos="1.16" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="72.50" y="1.60" angle="270.00" type="CarRed" speed="11.49" pos="20.30" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="77.00">
+        <vehicle id="CarBlack" x="22.46" y="-1.60" angle="90.00" type="CarBlack" speed="9.57" pos="10.73" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="59.13" y="1.60" angle="270.00" type="CarRed" speed="13.36" pos="33.67" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="78.00">
+        <vehicle id="CarBlack" x="32.28" y="-1.60" angle="90.00" type="CarBlack" speed="9.81" pos="20.55" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="46.47" y="1.60" angle="270.00" type="CarRed" speed="12.67" pos="46.33" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="79.00">
+        <vehicle id="CarBlack" x="44.47" y="-1.60" angle="90.00" type="CarBlack" speed="12.20" pos="32.74" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="35.91" y="1.60" angle="270.00" type="CarRed" speed="10.55" pos="56.89" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="80.00">
+        <vehicle id="CarBlack" x="53.23" y="-1.60" angle="90.00" type="CarBlack" speed="8.76" pos="41.50" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="22.50" y="1.60" angle="270.00" type="CarRed" speed="13.41" pos="70.30" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="81.00">
+        <vehicle id="CarBlack" x="64.62" y="-1.60" angle="90.00" type="CarBlack" speed="11.39" pos="52.89" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="12.89" y="1.60" angle="270.00" type="CarRed" speed="9.61" pos="79.91" lane="ed0201_0" slope="0.00"/>
+    </timestep>
+    <timestep time="82.00">
+        <vehicle id="CarBlack" x="74.97" y="-1.60" angle="90.00" type="CarBlack" speed="10.35" pos="63.24" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="8.66" y="1.95" angle="273.99" type="CarRed" speed="4.25" pos="3.09" lane=":nod01_6_0" slope="0.00"/>
+    </timestep>
+    <timestep time="83.00">
+        <vehicle id="CarBlack" x="88.01" y="-1.60" angle="90.00" type="CarBlack" speed="13.05" pos="76.28" lane="ed0102_0" slope="0.00"/>
+        <vehicle id="CarRed" x="7.45" y="4.51" angle="313.71" type="CarRed" speed="3.32" pos="6.41" lane=":nod01_6_0" slope="0.00"/>
+    </timestep>
+    <timestep time="84.00">
+        <vehicle id="CarRed" x="9.14" y="6.81" angle="19.16" type="CarRed" speed="2.88" pos="9.29" lane=":nod01_6_0" slope="0.00"/>
+    </timestep>
+    <timestep time="85.00">
+        <vehicle id="CarRed" x="11.90" y="9.64" angle="43.09" type="CarRed" speed="3.96" pos="3.51" lane="ed0105_0" slope="0.00"/>
+    </timestep>
+    <timestep time="86.00">
+        <vehicle id="CarRed" x="19.24" y="16.98" angle="45.00" type="CarRed" speed="10.38" pos="13.89" lane="ed0105_0" slope="0.00"/>
+    </timestep>
+    <timestep time="87.00">
+        <vehicle id="CarRed" x="26.48" y="24.22" angle="45.00" type="CarRed" speed="10.24" pos="24.13" lane="ed0105_0" slope="0.00"/>
+    </timestep>
+    <timestep time="88.00">
+        <vehicle id="CarRed" x="35.18" y="32.92" angle="45.00" type="CarRed" speed="12.30" pos="36.43" lane="ed0105_0" slope="0.00"/>
+    </timestep>
+    <timestep time="89.00">
+        <vehicle id="CarRed" x="43.71" y="41.45" angle="45.00" type="CarRed" speed="12.06" pos="48.50" lane="ed0105_0" slope="0.00"/>
+    </timestep>
+    <timestep time="90.00">
+        <vehicle id="CarRed" x="47.52" y="45.75" angle="40.98" type="CarRed" speed="5.76" pos="2.46" lane=":nod05_10_0" slope="0.00"/>
+    </timestep>
+    <timestep time="91.00">
+        <vehicle id="CarRed" x="48.71" y="51.74" angle="4.02" type="CarRed" speed="6.43" pos="2.96" lane=":nod05_18_0" slope="0.00"/>
+    </timestep>
+    <timestep time="92.00">
+        <vehicle id="CarRed" x="45.53" y="56.73" angle="323.71" type="CarRed" speed="6.02" pos="0.72" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="93.00">
+        <vehicle id="CarRed" x="39.41" y="62.85" angle="315.00" type="CarRed" speed="8.66" pos="9.38" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="94.00">
+        <vehicle id="CarRed" x="32.70" y="69.56" angle="315.00" type="CarRed" speed="9.49" pos="18.87" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="95.00">
+        <vehicle id="CarRed" x="25.40" y="76.86" angle="315.00" type="CarRed" speed="10.32" pos="29.19" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="96.00">
+        <vehicle id="CarRed" x="17.64" y="84.62" angle="315.00" type="CarRed" speed="10.98" pos="40.17" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="97.00">
+        <vehicle id="CarRed" x="12.67" y="89.59" angle="315.00" type="CarRed" speed="7.03" pos="47.19" lane="ed0504_0" slope="0.00"/>
+    </timestep>
+    <timestep time="98.00"/>
+</fcd-export>

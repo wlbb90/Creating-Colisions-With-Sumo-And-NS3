@@ -1,0 +1,64 @@
+        WAGNER LUIZ BRAGA BEZERRA - CRIAÇÃO DE CENÁRIO DO SUMO PARA GERAÇÃO DE COLISÕES FRONTAIS- REDES DE COMPUTADORES - UNIVERSIDADE FEDERAL DO CEARÁ - CAMPUS DE QUIXADÁ.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>INSTALAÇÃO DO SUMO>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>	A versão que estou utilizando é a versao 1.0.0  que pode ser obtida através do link https://sourceforge.net/projects/sumo/files/ e a instalação do mesmo é be simples.  >>
+>>	Depois de extrair e entrar no diretório do sumo que foi baixado basta executar os comandos a seguir:                                                                    >>
+>>																						>>
+>>	$sudo apt update																			>>
+>>	$sudo apt-get install build-essential autoconf automake libxmu-dev default-jre g++ libproj-dev libgdal-dev libxerces-c3-dev libfox-1.6-dev				>>
+>>	$./configure																				>>
+>>	$make   << Este comando demora para ser finalizado, é um bom sinal.													>>
+>>	$sudo make install																			>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Para criação do primeiro cenário do sumo, me utilizei do tutorial disponbilizado pelo Professor Benjamin no seguite link:
+http://www.galirows.com.br/meublog/blog/introducao-ao-sumo/
+
+Neste tutorial ele mostra passo-a-passo como criar o primeiro nós, pontes e rotas, bem como a maneira correta de criar veículos, enfim, o básico para vermos o cenário rodando no SUMO.
+
+Depois de criar o primeiro cenário, observando-se que foram criado os arquivos ".nod.xml", ".edg.xml" e ".rou.xml" conforme o tutorial, será necessário a criação de mais dois arquivos, um ".net.xml" vazio e outro ".sumo.cfg" com os seguintes parâmetros inicialmente:
+
+
+	<configuration>
+	<input>
+		<net-file value="nome_do_arquivo.net.xml"/>
+		<route-files value="nome_do_arquivo.rou.xml"/>
+	</input>
+	</configuration>
+
+É preciso atentar-se que o arquivo ".sumo.cfg" está, em primeiro momento, apenas direcionando para os arquivos que foram criados com as rotas e o nós, é ele que será executado pelo SUMO.
+
+Depois de tudo criado é preciso que façamos uma compilação destes arquivos através de uma ferramenta do sumo chamada NETCONVERT. É um procedimento simples.
+O primeiro passo é direcionar-se através do terminal até o diretório onde estão os arquivos do cenário criado, em seguida utilizamos o seguinte comando:
+
+	$netconvert --node-files="nome_do_arquivo.nod.xml" --edge-files="nome_do_arquivo.edg.xml" --output-file="nome_do_arquivo.net.xml"
+
+Depois disso basta que abramos o aplicativo do sumo e nele devemos procurar pelo arquivo ".sumo.cfg", dessa forma veremos o cenário na tela da aplicação.
+
+Para gerar colisões frontais foi necessário que alterasse muitos parâmetros dos veículos, para que pudéssemos trazer a sensação de desobediência de regras de trânsito.
+Tudo isso baseando-se no seguintes tutoriais:
+http://sumo.dlr.de/wiki/Definition_of_Vehicles,_Vehicle_Types,_and_Routes
+http://sumo.dlr.de/wiki/Simulation/Safety
+
+Dentro do "vType" inserimos os parâmetros e definímos valores acima ou abaixo do padrão. Os parãmetos alterados foram:
+sigma="0.5" - Trata-se da imperfeição do motorista, quando utilizado valor a partir de 1, os carros ficam andando e parando.
+lcSpeedGain="100" - Trata-se do ganho de velocidade após mudança de via.
+jmIgnoreFoeSpeed="200" - Define um valor máximo de velocidade pelos quais os veículo com velocidae igual ou abaixo terão sua preferência ignorada.
+jmIgnoreFoeProb="200" - Define uma probabilidade pela qual os veículos ignoram a preferência de outros.
+jmDriveAfterRedTime="300" - Quanto maior menos seguro. Trata-se da capacidade de ignorar sinais vermelhos, foi utilizada apenas em metade dos veículos, mais precisamente os veículos "CarWhite", "CarRed", "CarGray" e "CarBlack".
+lcjmDriveRedSpeed="10" - Redução de velocidade após furar sinal vermelho.
+lcPushy="300" - Disposição para invadir lateralmenre em outras vias.
+lcImpatience="300" - Impaciência age como um multiplicador para lcPushy, basiocamente a impaciência do motorista.
+accel="200" - Aceleração.
+dcel="20" - Desaceleração.
+emergencyDecel"0" - Capacidade de desaceleração em situações de emergência.
+maxSpeed="100" - Velocidade máxima.
+minSpeed="50" - Velocidade mínima.
+departSpeed="random" - Velocidade de partida, a velocidade com as quais os veículos iniciam as rotas, no caso definida como aleatória.
+arrivalLane="current" - Velocidade na qual o veículo deve terminar a rota, no caso definida com a atual.
+vClass="ignoring" - A classe do veículo, no caso "ignoring" significa que pode dirigir em todas as faixas independente das permissões definidas.
+minGap="1" - Proximidade dos veículos entre o que segue à frente e o que segue atrás.
+minGapLat="0" -Proximidade dos veículos lateralmente.
+Depois de definir os parâmetros acima foi necessário apenas adequar a rota para gerar um encontro entre dois veículos. No caso os veículos colisores para este cenário, primeiro momento são:
+veículo "CarGray01" e "CarOrange01".

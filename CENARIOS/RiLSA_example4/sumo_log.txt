@@ -1,0 +1,92 @@
+Loading net-file from '/home/wagner/TCC/RiLSA_example4/rilsa4.net.xml'... done (3ms).
+Loading additional-files from '/home/wagner/TCC/RiLSA_example4/vtypes.add.xml'... 
+Warning: The shape 'transport' for vType 'LKW' is deprecated, use 'truck' instead.
+done (0ms).
+Loading additional-files from '/home/wagner/TCC/RiLSA_example4/rilsa4_tls.add.xml'... done (1ms).
+Loading done.
+Warning: Environment variable SUMO_HOME is not set, schema resolution will use slow website lookups.
+Simulation started with time: 0.00
+Warning: Teleporting vehicle 'sm2mePKW.3'; collision with vehicle 'nm2mePKW.2', lane='me_0', gap=-4.07, time=224.00 stage=move.
+Warning: Vehicle 'sm2mePKW.3' teleports beyond arrival edge 'me', time 224.00.
+Warning: Teleporting vehicle 'em2mwPKW.78'; collision with vehicle 'sm2mwPKW.28', lane='mw_0', gap=-6.27, time=593.00 stage=move.
+Warning: Vehicle 'em2mwPKW.78' teleports beyond arrival edge 'mw', time 593.00.
+Warning: Teleporting vehicle 'wm2mnLKW.1'; collision with vehicle 'em2mnPKW.10', lane='mn_0', gap=-11.94, time=760.00 stage=move.
+Warning: Vehicle 'wm2mnLKW.1' teleports beyond arrival edge 'mn', time 760.00.
+Warning: Teleporting vehicle 'sm2mwPKW.43'; collision with vehicle 'em2mwPKW.124', lane='mw_0', gap=-6.17, time=906.00 stage=move.
+Warning: Vehicle 'sm2mwPKW.43' teleports beyond arrival edge 'mw', time 906.00.
+Warning: Teleporting vehicle 'em2mwPKW.167'; collision with vehicle 'sm2mwPKW.60', lane='mw_0', gap=-1.10, time=1225.00 stage=move.
+Warning: Vehicle 'em2mwPKW.167' teleports beyond arrival edge 'mw', time 1225.00.
+Warning: Teleporting vehicle 'em2mwLKW.22'; collision with vehicle 'sm2mwPKW.64', lane='mw_0', gap=-0.58, time=1304.00 stage=move.
+Warning: Vehicle 'em2mwLKW.22' teleports beyond arrival edge 'mw', time 1304.00.
+Warning: Teleporting vehicle 'em2mnPKW.18'; collision with vehicle 'wm2mnPKW.21', lane='mn_0', gap=-2.30, time=1320.00 stage=move.
+Warning: Vehicle 'em2mnPKW.18' teleports beyond arrival edge 'mn', time 1320.00.
+Warning: Teleporting vehicle 'sm2mwPKW.72'; collision with vehicle 'em2mwPKW.211', lane='mw_0', gap=-5.74, time=1470.00 stage=move.
+Warning: Vehicle 'sm2mwPKW.72' teleports beyond arrival edge 'mw', time 1470.00.
+Warning: Teleporting vehicle 'nm2mwPKW.45'; collision with vehicle 'sm2mwPKW.139', lane='mw_0', gap=-1.89, time=2788.00 stage=move.
+Warning: Vehicle 'nm2mwPKW.45' teleports beyond arrival edge 'mw', time 2788.00.
+Warning: Teleporting vehicle 'em2mwPKW.431'; collision with vehicle 'sm2mwPKW.145', lane='mw_0', gap=-5.76, time=2923.00 stage=move.
+Warning: Vehicle 'em2mwPKW.431' teleports beyond arrival edge 'mw', time 2923.00.
+Simulation ended at time: 3703.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3704.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3705.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3706.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3707.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3708.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3709.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3710.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3711.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3712.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3713.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3714.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3715.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3716.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3717.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3718.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3719.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3720.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3721.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3722.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3723.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3724.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3725.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3726.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3727.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3728.00
+Reason: All vehicles have left the simulation.
+Simulation ended at time: 3729.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 131506ms
+ Real time factor: 28.3561
+ UPS: 1927.493803
+Vehicles: 
+ Inserted: 2334
+ Running: 0
+ Waiting: 0
+Teleports: 10 (Collisions: 10)
+

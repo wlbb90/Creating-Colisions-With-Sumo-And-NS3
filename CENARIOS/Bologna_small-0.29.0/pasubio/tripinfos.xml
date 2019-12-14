@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on dom 02 set 2018 16:04:19 -03 by SUMO gui Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_buslanes.net.xml"/>
+        <route-files value="/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio.rou.xml"/>
+        <additional-files value="/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_vtypes.add.xml,/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_bus_stops.add.xml,/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_busses.rou.xml,/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_detectors.add.xml,/home/wagner/TCC/Bologna_small-0.29.0/pasubio/pasubio_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/home/wagner/TCC/Bologna_small-0.29.0/pasubio/tripinfos.xml"/>
+    </output>
+
+    <report>
+        <log value="/home/wagner/TCC/Bologna_small-0.29.0/pasubio/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

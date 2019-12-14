@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Sep 13 00:16:26 2019 by Eclipse SUMO netconvert Version 1.0.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="wagner.nod.xml"/>
+        <edge-files value="wagner.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="wagner.net.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<net version="1.0" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,150.00,100.00" origBoundary="0.00,0.00,150.00,100.00" projParameter="!"/>
+
+    <edge id=":nod01_0" function="internal">
+        <lane id=":nod01_0_0" index="0" speed="9.73" length="21.49" shape="-1.60,11.73 -0.77,5.90 1.73,1.73 5.90,-0.77 11.73,-1.60"/>
+    </edge>
+    <edge id=":nod01_1" function="internal">
+        <lane id=":nod01_1_0" index="0" speed="7.42" length="11.43" shape="-1.60,11.73 -0.91,5.59 1.16,2.79 2.91,3.06"/>
+    </edge>
+    <edge id=":nod01_2" function="internal">
+        <lane id=":nod01_2_0" index="0" speed="3.65" length="2.56" shape="-1.60,11.73 -0.80,10.53 0.00,10.13 0.20,10.22"/>
+    </edge>
+    <edge id=":nod01_9" function="internal">
+        <lane id=":nod01_9_0" index="0" speed="7.42" length="7.88" shape="2.91,3.06 4.60,3.31 9.42,7.16"/>
+    </edge>
+    <edge id=":nod01_10" function="internal">
+        <lane id=":nod01_10_0" index="0" speed="3.65" length="2.12" shape="0.20,10.22 0.80,10.53 1.60,11.73"/>
+    </edge>
+    <edge id=":nod01_3" function="internal">
+        <lane id=":nod01_3_0" index="0" speed="5.47" length="9.74" shape="7.16,9.42 4.73,7.48 2.99,7.22 1.95,8.63 1.60,11.73"/>
+    </edge>
+    <edge id=":nod01_4" function="internal">
+        <lane id=":nod01_4_0" index="0" speed="7.42" length="19.31" shape="7.16,9.42 3.31,4.60 2.79,1.16 5.59,-0.91 11.73,-1.60"/>
+    </edge>
+    <edge id=":nod01_5" function="internal">
+        <lane id=":nod01_5_0" index="0" speed="3.65" length="4.67" shape="7.16,9.42 6.88,8.01 7.16,7.16 8.01,6.88 9.42,7.16"/>
+    </edge>
+    <edge id=":nod01_6" function="internal">
+        <lane id=":nod01_6_0" index="0" speed="5.47" length="9.74" shape="11.73,1.60 8.63,1.95 7.22,2.99 7.48,4.73 9.42,7.16"/>
+    </edge>
+    <edge id=":nod01_7" function="internal">
+        <lane id=":nod01_7_0" index="0" speed="8.54" length="16.33" shape="11.73,1.60 7.30,2.23 4.13,4.13 2.23,7.30 1.60,11.73"/>
+    </edge>
+    <edge id=":nod01_8" function="internal">
+        <lane id=":nod01_8_0" index="0" speed="3.65" length="2.08" shape="11.73,1.60 10.53,0.80 10.24,0.23"/>
+    </edge>
+    <edge id=":nod01_11" function="internal">
+        <lane id=":nod01_11_0" index="0" speed="3.65" length="2.59" shape="10.24,0.23 10.13,0.00 10.53,-0.80 11.73,-1.60"/>
+    </edge>
+    <edge id=":nod02_0" function="internal">
+        <lane id=":nod02_0_0" index="0" speed="6.51" length="9.03" shape="98.40,7.20 98.05,4.75 97.00,3.00 95.25,1.95 92.80,1.60"/>
+    </edge>
+    <edge id=":nod02_1" function="internal">
+        <lane id=":nod02_1_0" index="0" speed="8.00" length="14.19" shape="98.40,7.20 98.95,3.35 100.60,0.60 103.35,-1.05 107.20,-1.60"/>
+    </edge>
+    <edge id=":nod02_2" function="internal">
+        <lane id=":nod02_2_0" index="0" speed="3.65" length="4.67" shape="98.40,7.20 99.20,6.00 100.00,5.60 100.80,6.00 101.60,7.20"/>
+    </edge>
+    <edge id=":nod02_3" function="internal">
+        <lane id=":nod02_3_0" index="0" speed="6.51" length="9.03" shape="107.20,1.60 104.75,1.95 103.00,3.00 101.95,4.75 101.60,7.20"/>
+    </edge>
+    <edge id=":nod02_4" function="internal">
+        <lane id=":nod02_4_0" index="0" speed="13.89" length="14.40" shape="107.20,1.60 92.80,1.60"/>
+    </edge>
+    <edge id=":nod02_5" function="internal">
+        <lane id=":nod02_5_0" index="0" speed="3.65" length="2.34" shape="107.20,1.60 106.00,0.80 105.60,0.00"/>
+    </edge>
+    <edge id=":nod02_9" function="internal">
+        <lane id=":nod02_9_0" index="0" speed="3.65" length="2.34" shape="105.60,0.00 106.00,-0.80 107.20,-1.60"/>
+    </edge>
+    <edge id=":nod02_6" function="internal">
+        <lane id=":nod02_6_0" index="0" speed="13.89" length="14.40" shape="92.80,-1.60 107.20,-1.60"/>
+    </edge>
+    <edge id=":nod02_7" function="internal">
+        <lane id=":nod02_7_0" index="0" speed="8.00" length="5.93" shape="92.80,-1.60 96.65,-1.05 98.40,0.00"/>
+    </edge>
+    <edge id=":nod02_8" function="internal">
+        <lane id=":nod02_8_0" index="0" speed="3.65" length="2.34" shape="92.80,-1.60 94.00,-0.80 94.40,0.00"/>
+    </edge>
+    <edge id=":nod02_10" function="internal">
+        <lane id=":nod02_10_0" index="0" speed="8.00" length="8.26" shape="98.40,0.00 99.40,0.60 101.05,3.35 101.60,7.20"/>
+    </edge>
+    <edge id=":nod02_11" function="internal">
+        <lane id=":nod02_11_0" index="0" speed="3.65" length="2.34" shape="94.40,0.00 94.00,0.80 92.80,1.60"/>
+    </edge>
+    <edge id=":nod03_0" function="internal">
+        <lane id=":nod03_0_0" index="0" speed="9.73" length="21.49" shape="101.60,88.27 100.77,94.10 98.27,98.27 94.10,100.77 88.27,101.60"/>
+    </edge>
+    <edge id=":nod03_1" function="internal">
+        <lane id=":nod03_1_0" index="0" speed="7.42" length="11.43" shape="101.60,88.27 100.91,94.41 98.84,97.21 97.09,96.94"/>
+    </edge>
+    <edge id=":nod03_2" function="internal">
+        <lane id=":nod03_2_0" index="0" speed="3.65" length="2.56" shape="101.60,88.27 100.80,89.47 100.00,89.87 99.80,89.78"/>
+    </edge>
+    <edge id=":nod03_9" function="internal">
+        <lane id=":nod03_9_0" index="0" speed="7.42" length="7.88" shape="97.09,96.94 95.40,96.69 90.58,92.84"/>
+    </edge>
+    <edge id=":nod03_10" function="internal">
+        <lane id=":nod03_10_0" index="0" speed="3.65" length="2.12" shape="99.80,89.78 99.20,89.47 98.40,88.27"/>
+    </edge>
+    <edge id=":nod03_3" function="internal">
+        <lane id=":nod03_3_0" index="0" speed="5.47" length="9.74" shape="92.84,90.58 95.27,92.52 97.01,92.78 98.05,91.37 98.40,88.27"/>
+    </edge>
+    <edge id=":nod03_4" function="internal">
+        <lane id=":nod03_4_0" index="0" speed="7.42" length="19.31" shape="92.84,90.58 96.69,95.40 97.21,98.84 94.41,100.91 88.27,101.60"/>
+    </edge>
+    <edge id=":nod03_5" function="internal">
+        <lane id=":nod03_5_0" index="0" speed="3.65" length="4.67" shape="92.84,90.58 93.12,91.99 92.84,92.84 91.99,93.12 90.58,92.84"/>
+    </edge>
+    <edge id=":nod03_6" function="internal">
+        <lane id=":nod03_6_0" index="0" speed="5.47" length="9.74" shape="88.27,98.40 91.37,98.05 92.78,97.01 92.52,95.27 90.58,92.84"/>
+    </edge>
+    <edge id=":nod03_7" function="internal">
+        <lane id=":nod03_7_0" index="0" speed="8.54" length="16.33" shape="88.27,98.40 92.70,97.77 95.87,95.87 97.77,92.70 98.40,88.27"/>
+    </edge>
+    <edge id=":nod03_8" function="internal">
+        <lane id=":nod03_8_0" index="0" speed="3.65" length="2.08" shape="88.27,98.40 89.47,99.20 89.76,99.77"/>
+    </edge>
+    <edge id=":nod03_11" function="internal">
+        <lane id=":nod03_11_0" index="0" speed="3.65" length="2.59" shape="89.76,99.77 89.87,100.00 89.47,100.80 88.27,101.60"/>
+    </edge>
+    <edge id=":nod04_0" function="internal">
+        <lane id=":nod04_0_0" index="0" speed="9.73" length="21.49" shape="11.73,101.60 5.90,100.77 1.73,98.27 -0.77,94.10 -1.60,88.27"/>
+    </edge>
+    <edge id=":nod04_1" function="internal">
+        <lane id=":nod04_1_0" index="0" speed="7.42" length="11.43" shape="11.73,101.60 5.59,100.91 2.79,98.84 3.06,97.09"/>
+    </edge>
+    <edge id=":nod04_2" function="internal">
+        <lane id=":nod04_2_0" index="0" speed="3.65" length="2.56" shape="11.73,101.60 10.53,100.80 10.13,100.00 10.22,99.80"/>
+    </edge>
+    <edge id=":nod04_9" function="internal">
+        <lane id=":nod04_9_0" index="0" speed="7.42" length="7.88" shape="3.06,97.09 3.31,95.40 7.16,90.58"/>
+    </edge>
+    <edge id=":nod04_10" function="internal">
+        <lane id=":nod04_10_0" index="0" speed="3.65" length="2.12" shape="10.22,99.80 10.53,99.20 11.73,98.40"/>
+    </edge>
+    <edge id=":nod04_3" function="internal">
+        <lane id=":nod04_3_0" index="0" speed="5.47" length="9.74" shape="9.42,92.84 7.48,95.27 7.22,97.01 8.63,98.05 11.73,98.40"/>
+    </edge>
+    <edge id=":nod04_4" function="internal">
+        <lane id=":nod04_4_0" index="0" speed="7.42" length="19.31" shape="9.42,92.84 4.60,96.69 1.16,97.21 -0.91,94.41 -1.60,88.27"/>
+    </edge>
+    <edge id=":nod04_5" function="internal">
+        <lane id=":nod04_5_0" index="0" speed="3.65" length="4.67" shape="9.42,92.84 8.01,93.12 7.16,92.84 6.88,91.99 7.16,90.58"/>
+    </edge>
+    <edge id=":nod04_6" function="internal">
+        <lane id=":nod04_6_0" index="0" speed="5.47" length="9.74" shape="1.60,88.27 1.95,91.37 2.99,92.78 4.73,92.52 7.16,90.58"/>
+    </edge>
+    <edge id=":nod04_7" function="internal">
+        <lane id=":nod04_7_0" index="0" speed="8.54" length="16.33" shape="1.60,88.27 2.23,92.70 4.13,95.87 7.30,97.77 11.73,98.40"/>
+    </edge>
+    <edge id=":nod04_8" function="internal">
+        <lane id=":nod04_8_0" index="0" speed="3.65" length="2.08" shape="1.60,88.27 0.80,89.47 0.23,89.76"/>
+    </edge>
+    <edge id=":nod04_11" function="internal">
+        <lane id=":nod04_11_0" index="0" speed="3.65" length="2.59" shape="0.23,89.76 0.00,89.87 -0.80,89.47 -1.60,88.27"/>
+    </edge>
+    <edge id=":nod05_0" function="internal">
+        <lane id=":nod05_0_0" index="0" speed="7.65" length="12.89" shape="57.16,59.42 53.78,56.54 50.80,55.04 48.22,54.94 46.04,56.22"/>
+    </edge>
+    <edge id=":nod05_1" function="internal">
+        <lane id=":nod05_1_0" index="0" speed="13.89" length="18.93" shape="57.16,59.42 43.78,46.04"/>
+    </edge>
+    <edge id=":nod05_2" function="internal">
+        <lane id=":nod05_2_0" index="0" speed="7.42" length="7.71" shape="57.16,59.42 53.31,54.60 53.08,53.08"/>
+    </edge>
+    <edge id=":nod05_3" function="internal">
+        <lane id=":nod05_3_0" index="0" speed="3.65" length="2.34" shape="57.16,59.42 56.88,58.01 57.16,57.16"/>
+    </edge>
+    <edge id=":nod05_16" function="internal">
+        <lane id=":nod05_16_0" index="0" speed="7.42" length="11.60" shape="53.08,53.08 52.79,51.16 55.59,49.09 61.73,48.40"/>
+    </edge>
+    <edge id=":nod05_17" function="internal">
+        <lane id=":nod05_17_0" index="0" speed="3.65" length="2.34" shape="57.16,57.16 58.01,56.88 59.42,57.16"/>
+    </edge>
+    <edge id=":nod05_4" function="internal">
+        <lane id=":nod05_4_0" index="0" speed="5.47" length="9.74" shape="61.73,51.60 58.63,51.95 57.22,52.99 57.48,54.73 59.42,57.16"/>
+    </edge>
+    <edge id=":nod05_5" function="internal">
+        <lane id=":nod05_5_0" index="0" speed="13.42" length="16.74" shape="61.73,51.60 56.60,51.89 52.27,52.76 48.75,54.20 46.04,56.22"/>
+    </edge>
+    <edge id=":nod05_6" function="internal">
+        <lane id=":nod05_6_0" index="0" speed="13.89" length="19.24" shape="61.73,51.60 55.96,51.25 51.04,50.21 46.98,48.47 43.78,46.04"/>
+    </edge>
+    <edge id=":nod05_7" function="internal">
+        <lane id=":nod05_7_0" index="0" speed="3.65" length="4.67" shape="61.73,51.60 60.53,50.80 60.13,50.00 60.53,49.20 61.73,48.40"/>
+    </edge>
+    <edge id=":nod05_8" function="internal">
+        <lane id=":nod05_8_0" index="0" speed="13.42" length="16.74" shape="46.04,43.78 48.75,45.80 52.27,47.24 56.60,48.11 61.73,48.40"/>
+    </edge>
+    <edge id=":nod05_9" function="internal">
+        <lane id=":nod05_9_0" index="0" speed="13.89" length="18.93" shape="46.04,43.78 59.42,57.16"/>
+    </edge>
+    <edge id=":nod05_10" function="internal">
+        <lane id=":nod05_10_0" index="0" speed="8.00" length="5.93" shape="46.04,43.78 48.37,46.89 48.87,48.87"/>
+    </edge>
+    <edge id=":nod05_11" function="internal">
+        <lane id=":nod05_11_0" index="0" speed="3.65" length="2.34" shape="46.04,43.78 46.32,45.19 46.04,46.04"/>
+    </edge>
+    <edge id=":nod05_18" function="internal">
+        <lane id=":nod05_18_0" index="0" speed="8.00" length="8.26" shape="48.87,48.87 49.15,50.00 48.37,53.11 46.04,56.22"/>
+    </edge>
+    <edge id=":nod05_19" function="internal">
+        <lane id=":nod05_19_0" index="0" speed="3.65" length="2.34" shape="46.04,46.04 45.19,46.32 43.78,46.04"/>
+    </edge>
+    <edge id=":nod05_12" function="internal">
+        <lane id=":nod05_12_0" index="0" speed="6.51" length="9.03" shape="43.78,53.96 45.26,51.98 45.76,50.00 45.26,48.02 43.78,46.04"/>
+    </edge>
+    <edge id=":nod05_13" function="internal">
+        <lane id=":nod05_13_0" index="0" speed="13.89" length="19.24" shape="43.78,53.96 46.98,51.53 51.04,49.79 55.96,48.75 61.73,48.40"/>
+    </edge>
+    <edge id=":nod05_14" function="internal">
+        <lane id=":nod05_14_0" index="0" speed="8.94" length="17.99" shape="43.78,53.96 47.09,51.83 50.80,51.65 54.91,53.43 59.42,57.16"/>
+    </edge>
+    <edge id=":nod05_15" function="internal">
+        <lane id=":nod05_15_0" index="0" speed="3.65" length="4.67" shape="43.78,53.96 45.19,53.68 46.04,53.96 46.32,54.81 46.04,56.22"/>
+    </edge>
+    <edge id=":nod06_0" function="internal">
+        <lane id=":nod06_0_0" index="0" speed="3.90" length="2.58" shape="148.40,3.20 148.30,2.50 148.00,2.00 147.50,1.70 146.80,1.60"/>
+    </edge>
+    <edge id=":nod06_1" function="internal">
+        <lane id=":nod06_1_0" index="0" speed="3.65" length="2.08" shape="148.40,3.20 149.20,2.00 149.77,1.71"/>
+    </edge>
+    <edge id=":nod06_4" function="internal">
+        <lane id=":nod06_4_0" index="0" speed="3.65" length="2.59" shape="149.77,1.71 150.00,1.60 150.80,2.00 151.60,3.20"/>
+    </edge>
+    <edge id=":nod06_2" function="internal">
+        <lane id=":nod06_2_0" index="0" speed="6.08" length="7.74" shape="146.80,-1.60 148.90,-1.30 150.40,-0.40 151.30,1.10 151.60,3.20"/>
+    </edge>
+    <edge id=":nod06_3" function="internal">
+        <lane id=":nod06_3_0" index="0" speed="3.65" length="2.66" shape="146.80,-1.60 148.00,-0.80 148.40,0.00 148.26,0.29"/>
+    </edge>
+    <edge id=":nod06_5" function="internal">
+        <lane id=":nod06_5_0" index="0" speed="3.65" length="2.01" shape="148.26,0.29 148.00,0.80 146.80,1.60"/>
+    </edge>
+    <edge id=":nod07_0" function="internal">
+        <lane id=":nod07_0_0" index="0" speed="6.08" length="7.74" shape="151.60,46.80 151.30,48.90 150.40,50.40 148.90,51.30 146.80,51.60"/>
+    </edge>
+    <edge id=":nod07_1" function="internal">
+        <lane id=":nod07_1_0" index="0" speed="3.65" length="2.66" shape="151.60,46.80 150.80,48.00 150.00,48.40 149.71,48.26"/>
+    </edge>
+    <edge id=":nod07_4" function="internal">
+        <lane id=":nod07_4_0" index="0" speed="3.65" length="2.01" shape="149.71,48.26 149.20,48.00 148.40,46.80"/>
+    </edge>
+    <edge id=":nod07_2" function="internal">
+        <lane id=":nod07_2_0" index="0" speed="3.90" length="2.58" shape="146.80,48.40 147.50,48.30 148.00,48.00 148.30,47.50 148.40,46.80"/>
+    </edge>
+    <edge id=":nod07_3" function="internal">
+        <lane id=":nod07_3_0" index="0" speed="3.65" length="2.08" shape="146.80,48.40 148.00,49.20 148.29,49.77"/>
+    </edge>
+    <edge id=":nod07_5" function="internal">
+        <lane id=":nod07_5_0" index="0" speed="3.65" length="2.59" shape="148.29,49.77 148.40,50.00 148.00,50.80 146.80,51.60"/>
+    </edge>
+    <edge id=":nod08_0" function="internal">
+        <lane id=":nod08_0_0" index="0" speed="6.51" length="9.03" shape="98.40,57.20 98.05,54.75 97.00,53.00 95.25,51.95 92.80,51.60"/>
+    </edge>
+    <edge id=":nod08_1" function="internal">
+        <lane id=":nod08_1_0" index="0" speed="13.89" length="14.40" shape="98.40,57.20 98.40,42.80"/>
+    </edge>
+    <edge id=":nod08_2" function="internal">
+        <lane id=":nod08_2_0" index="0" speed="8.00" length="5.93" shape="98.40,57.20 98.95,53.35 100.00,51.60"/>
+    </edge>
+    <edge id=":nod08_3" function="internal">
+        <lane id=":nod08_3_0" index="0" speed="3.65" length="2.34" shape="98.40,57.20 99.20,56.00 100.00,55.60"/>
+    </edge>
+    <edge id=":nod08_16" function="internal">
+        <lane id=":nod08_16_0" index="0" speed="8.00" length="8.26" shape="100.00,51.60 100.60,50.60 103.35,48.95 107.20,48.40"/>
+    </edge>
+    <edge id=":nod08_17" function="internal">
+        <lane id=":nod08_17_0" index="0" speed="3.65" length="2.34" shape="100.00,55.60 100.80,56.00 101.60,57.20"/>
+    </edge>
+    <edge id=":nod08_4" function="internal">
+        <lane id=":nod08_4_0" index="0" speed="6.51" length="9.03" shape="107.20,51.60 104.75,51.95 103.00,53.00 101.95,54.75 101.60,57.20"/>
+    </edge>
+    <edge id=":nod08_5" function="internal">
+        <lane id=":nod08_5_0" index="0" speed="13.89" length="14.40" shape="107.20,51.60 92.80,51.60"/>
+    </edge>
+    <edge id=":nod08_6" function="internal">
+        <lane id=":nod08_6_0" index="0" speed="8.00" length="14.19" shape="107.20,51.60 103.35,51.05 100.60,49.40 98.95,46.65 98.40,42.80"/>
+    </edge>
+    <edge id=":nod08_7" function="internal">
+        <lane id=":nod08_7_0" index="0" speed="3.65" length="4.67" shape="107.20,51.60 106.00,50.80 105.60,50.00 106.00,49.20 107.20,48.40"/>
+    </edge>
+    <edge id=":nod08_8" function="internal">
+        <lane id=":nod08_8_0" index="0" speed="6.51" length="9.03" shape="101.60,42.80 101.95,45.25 103.00,47.00 104.75,48.05 107.20,48.40"/>
+    </edge>
+    <edge id=":nod08_9" function="internal">
+        <lane id=":nod08_9_0" index="0" speed="13.89" length="14.40" shape="101.60,42.80 101.60,57.20"/>
+    </edge>
+    <edge id=":nod08_10" function="internal">
+        <lane id=":nod08_10_0" index="0" speed="8.00" length="5.93" shape="101.60,42.80 101.05,46.65 100.00,48.40"/>
+    </edge>
+    <edge id=":nod08_11" function="internal">
+        <lane id=":nod08_11_0" index="0" speed="3.65" length="2.34" shape="101.60,42.80 100.80,44.00 100.00,44.40"/>
+    </edge>
+    <edge id=":nod08_18" function="internal">
+        <lane id=":nod08_18_0" index="0" speed="8.00" length="8.26" shape="100.00,48.40 99.40,49.40 96.65,51.05 92.80,51.60"/>
+    </edge>
+    <edge id=":nod08_19" function="internal">
+        <lane id=":nod08_19_0" index="0" speed="3.65" length="2.34" shape="100.00,44.40 99.20,44.00 98.40,42.80"/>
+    </edge>
+    <edge id=":nod08_12" function="internal">
+        <lane id=":nod08_12_0" index="0" speed="6.51" length="9.03" shape="92.80,48.40 95.25,48.05 97.00,47.00 98.05,45.25 98.40,42.80"/>
+    </edge>
+    <edge id=":nod08_13" function="internal">
+        <lane id=":nod08_13_0" index="0" speed="13.89" length="14.40" shape="92.80,48.40 107.20,48.40"/>
+    </edge>
+    <edge id=":nod08_14" function="internal">
+        <lane id=":nod08_14_0" index="0" speed="8.00" length="14.19" shape="92.80,48.40 96.65,48.95 99.40,50.60 101.05,53.35 101.60,57.20"/>
+    </edge>
+    <edge id=":nod08_15" function="internal">
+        <lane id=":nod08_15_0" index="0" speed="3.65" length="4.67" shape="92.80,48.40 94.00,49.20 94.40,50.00 94.00,50.80 92.80,51.60"/>
+    </edge>
+
+    <edge id="ed0102" from="nod01" to="nod02" priority="-1">
+        <lane id="ed0102_0" index="0" speed="13.89" length="81.07" shape="11.73,-1.60 92.80,-1.60"/>
+    </edge>
+    <edge id="ed0104" from="nod01" to="nod04" priority="-1">
+        <lane id="ed0104_0" index="0" speed="13.89" length="76.55" shape="1.60,11.73 1.60,88.27"/>
+    </edge>
+    <edge id="ed0105" from="nod01" to="nod05" priority="-1">
+        <lane id="ed0105_0" index="0" speed="13.89" length="51.79" shape="9.42,7.16 46.04,43.78"/>
+    </edge>
+    <edge id="ed0201" from="nod02" to="nod01" priority="-1">
+        <lane id="ed0201_0" index="0" speed="13.89" length="81.07" shape="92.80,1.60 11.73,1.60"/>
+    </edge>
+    <edge id="ed0206" from="nod02" to="nod06" priority="-1">
+        <lane id="ed0206_0" index="0" speed="13.89" length="39.60" shape="107.20,-1.60 146.80,-1.60"/>
+    </edge>
+    <edge id="ed0208" from="nod02" to="nod08" priority="-1">
+        <lane id="ed0208_0" index="0" speed="13.89" length="35.60" shape="101.60,7.20 101.60,42.80"/>
+    </edge>
+    <edge id="ed0304" from="nod03" to="nod04" priority="-1">
+        <lane id="ed0304_0" index="0" speed="13.89" length="76.55" shape="88.27,101.60 11.73,101.60"/>
+    </edge>
+    <edge id="ed0305" from="nod03" to="nod05" priority="-1">
+        <lane id="ed0305_0" index="0" speed="13.89" length="47.26" shape="90.58,92.84 57.16,59.42"/>
+    </edge>
+    <edge id="ed0308" from="nod03" to="nod08" priority="-1">
+        <lane id="ed0308_0" index="0" speed="13.89" length="31.07" shape="98.40,88.27 98.40,57.20"/>
+    </edge>
+    <edge id="ed0401" from="nod04" to="nod01" priority="-1">
+        <lane id="ed0401_0" index="0" speed="13.89" length="76.55" shape="-1.60,88.27 -1.60,11.73"/>
+    </edge>
+    <edge id="ed0403" from="nod04" to="nod03" priority="-1">
+        <lane id="ed0403_0" index="0" speed="13.89" length="76.55" shape="11.73,98.40 88.27,98.40"/>
+    </edge>
+    <edge id="ed0405" from="nod04" to="nod05" priority="-1">
+        <lane id="ed0405_0" index="0" speed="13.89" length="51.79" shape="7.16,90.58 43.78,53.96"/>
+    </edge>
+    <edge id="ed0501" from="nod05" to="nod01" priority="-1">
+        <lane id="ed0501_0" index="0" speed="13.89" length="51.79" shape="43.78,46.04 7.16,9.42"/>
+    </edge>
+    <edge id="ed0503" from="nod05" to="nod03" priority="-1">
+        <lane id="ed0503_0" index="0" speed="13.89" length="47.26" shape="59.42,57.16 92.84,90.58"/>
+    </edge>
+    <edge id="ed0504" from="nod05" to="nod04" priority="-1">
+        <lane id="ed0504_0" index="0" speed="13.89" length="51.79" shape="46.04,56.22 9.42,92.84"/>
+    </edge>
+    <edge id="ed0508" from="nod05" to="nod08" priority="-1">
+        <lane id="ed0508_0" index="0" speed="13.89" length="31.07" shape="61.73,48.40 92.80,48.40"/>
+    </edge>
+    <edge id="ed0602" from="nod06" to="nod02" priority="-1">
+        <lane id="ed0602_0" index="0" speed="13.89" length="39.60" shape="146.80,1.60 107.20,1.60"/>
+    </edge>
+    <edge id="ed0607" from="nod06" to="nod07" priority="-1">
+        <lane id="ed0607_0" index="0" speed="13.89" length="43.60" shape="151.60,3.20 151.60,46.80"/>
+    </edge>
+    <edge id="ed0706" from="nod07" to="nod06" priority="-1">
+        <lane id="ed0706_0" index="0" speed="13.89" length="43.60" shape="148.40,46.80 148.40,3.20"/>
+    </edge>
+    <edge id="ed0708" from="nod07" to="nod08" priority="-1">
+        <lane id="ed0708_0" index="0" speed="13.89" length="39.60" shape="146.80,51.60 107.20,51.60"/>
+    </edge>
+    <edge id="ed0802" from="nod08" to="nod02" priority="-1">
+        <lane id="ed0802_0" index="0" speed="13.89" length="35.60" shape="98.40,42.80 98.40,7.20"/>
+    </edge>
+    <edge id="ed0803" from="nod08" to="nod03" priority="-1">
+        <lane id="ed0803_0" index="0" speed="13.89" length="31.07" shape="101.60,57.20 101.60,88.27"/>
+    </edge>
+    <edge id="ed0805" from="nod08" to="nod05" priority="-1">
+        <lane id="ed0805_0" index="0" speed="13.89" length="31.07" shape="92.80,51.60 61.73,51.60"/>
+    </edge>
+    <edge id="ed0807" from="nod08" to="nod07" priority="-1">
+        <lane id="ed0807_0" index="0" speed="13.89" length="39.60" shape="107.20,48.40 146.80,48.40"/>
+    </edge>
+
+    <junction id="nod01" type="priority" x="0.00" y="0.00" incLanes="ed0401_0 ed0501_0 ed0201_0" intLanes=":nod01_0_0 :nod01_9_0 :nod01_10_0 :nod01_3_0 :nod01_4_0 :nod01_5_0 :nod01_6_0 :nod01_7_0 :nod01_11_0" shape="-3.20,11.73 3.20,11.73 3.51,9.82 3.91,9.43 4.46,9.43 5.16,9.80 6.03,10.55 10.55,6.03 9.43,4.46 9.43,3.91 9.82,3.51 10.58,3.28 11.73,3.20 11.73,-3.20 7.16,-2.79 3.43,-1.54 0.53,0.53 -1.54,3.43 -2.79,7.16">
+        <request index="0" response="000000000" foes="100010000" cont="0"/>
+        <request index="1" response="011000000" foes="011110000" cont="1"/>
+        <request index="2" response="010001000" foes="010001000" cont="1"/>
+        <request index="3" response="010000000" foes="010000100" cont="0"/>
+        <request index="4" response="010000011" foes="110000011" cont="0"/>
+        <request index="5" response="001000010" foes="001000010" cont="0"/>
+        <request index="6" response="000000000" foes="000100010" cont="0"/>
+        <request index="7" response="000000000" foes="000011110" cont="0"/>
+        <request index="8" response="000010001" foes="000010001" cont="1"/>
+    </junction>
+    <junction id="nod02" type="priority" x="100.00" y="0.00" incLanes="ed0802_0 ed0602_0 ed0102_0" intLanes=":nod02_0_0 :nod02_1_0 :nod02_2_0 :nod02_3_0 :nod02_4_0 :nod02_9_0 :nod02_6_0 :nod02_10_0 :nod02_11_0" shape="96.80,7.20 103.20,7.20 103.64,4.98 104.20,4.20 104.98,3.64 105.98,3.31 107.20,3.20 107.20,-3.20 92.80,-3.20 92.80,3.20 95.02,3.64 95.80,4.20 96.36,4.98 96.69,5.98">
+        <request index="0" response="000010000" foes="100010000" cont="0"/>
+        <request index="1" response="011010000" foes="011110000" cont="0"/>
+        <request index="2" response="010001000" foes="010001000" cont="0"/>
+        <request index="3" response="000000000" foes="010000100" cont="0"/>
+        <request index="4" response="000000000" foes="110000011" cont="0"/>
+        <request index="5" response="001000010" foes="001000010" cont="1"/>
+        <request index="6" response="000000000" foes="000100010" cont="0"/>
+        <request index="7" response="000011000" foes="000011110" cont="1"/>
+        <request index="8" response="000010001" foes="000010001" cont="1"/>
+    </junction>
+    <junction id="nod03" type="priority" x="100.00" y="100.00" incLanes="ed0803_0 ed0503_0 ed0403_0" intLanes=":nod03_0_0 :nod03_9_0 :nod03_10_0 :nod03_3_0 :nod03_4_0 :nod03_5_0 :nod03_6_0 :nod03_7_0 :nod03_11_0" shape="103.20,88.27 96.80,88.27 96.49,90.18 96.09,90.57 95.54,90.57 94.84,90.20 93.97,89.45 89.45,93.97 90.57,95.54 90.57,96.09 90.18,96.49 89.42,96.72 88.27,96.80 88.27,103.20 92.84,102.79 96.57,101.54 99.47,99.47 101.54,96.57 102.79,92.84">
+        <request index="0" response="000000000" foes="100010000" cont="0"/>
+        <request index="1" response="011000000" foes="011110000" cont="1"/>
+        <request index="2" response="010001000" foes="010001000" cont="1"/>
+        <request index="3" response="010000000" foes="010000100" cont="0"/>
+        <request index="4" response="010000011" foes="110000011" cont="0"/>
+        <request index="5" response="001000010" foes="001000010" cont="0"/>
+        <request index="6" response="000000000" foes="000100010" cont="0"/>
+        <request index="7" response="000000000" foes="000011110" cont="0"/>
+        <request index="8" response="000010001" foes="000010001" cont="1"/>
+    </junction>
+    <junction id="nod04" type="priority" x="0.00" y="100.00" incLanes="ed0304_0 ed0504_0 ed0104_0" intLanes=":nod04_0_0 :nod04_9_0 :nod04_10_0 :nod04_3_0 :nod04_4_0 :nod04_5_0 :nod04_6_0 :nod04_7_0 :nod04_11_0" shape="11.73,103.20 11.73,96.80 9.82,96.49 9.43,96.09 9.43,95.54 9.80,94.84 10.55,93.97 6.03,89.45 4.46,90.57 3.91,90.57 3.51,90.18 3.28,89.42 3.20,88.27 -3.20,88.27 -2.79,92.84 -1.54,96.57 0.53,99.47 3.43,101.54 7.16,102.79">
+        <request index="0" response="000000000" foes="100010000" cont="0"/>
+        <request index="1" response="011000000" foes="011110000" cont="1"/>
+        <request index="2" response="010001000" foes="010001000" cont="1"/>
+        <request index="3" response="010000000" foes="010000100" cont="0"/>
+        <request index="4" response="010000011" foes="110000011" cont="0"/>
+        <request index="5" response="001000010" foes="001000010" cont="0"/>
+        <request index="6" response="000000000" foes="000100010" cont="0"/>
+        <request index="7" response="000000000" foes="000011110" cont="0"/>
+        <request index="8" response="000010001" foes="000010001" cont="1"/>
+    </junction>
+    <junction id="nod05" type="priority" x="50.00" y="50.00" incLanes="ed0305_0 ed0805_0 ed0105_0 ed0405_0" intLanes=":nod05_0_0 :nod05_1_0 :nod05_16_0 :nod05_17_0 :nod05_4_0 :nod05_5_0 :nod05_6_0 :nod05_7_0 :nod05_8_0 :nod05_9_0 :nod05_18_0 :nod05_19_0 :nod05_12_0 :nod05_13_0 :nod05_14_0 :nod05_15_0" shape="56.03,60.55 60.55,56.03 59.43,54.46 59.43,53.91 59.82,53.51 60.58,53.28 61.73,53.20 61.73,46.80 58.43,46.68 55.49,46.34 52.89,45.76 50.63,44.95 48.73,43.92 47.17,42.65 42.65,47.17 43.90,49.06 44.06,50.00 43.90,50.94 43.43,51.89 42.65,52.83 47.17,57.35 49.41,56.45 50.80,56.74 52.37,57.52 54.11,58.79">
+        <request index="0"  response="0000000000000000" foes="1000010000100000" cont="0"/>
+        <request index="1"  response="0000000000000000" foes="0111110001100000" cont="0"/>
+        <request index="2"  response="0000001100000000" foes="0110001111100000" cont="1"/>
+        <request index="3"  response="0100001000010000" foes="0100001000010000" cont="1"/>
+        <request index="4"  response="0000001000000000" foes="0100001000001000" cont="0"/>
+        <request index="5"  response="0000011000000111" foes="1100011000000111" cont="0"/>
+        <request index="6"  response="0011011000000110" foes="0111111000000110" cont="0"/>
+        <request index="7"  response="0010000100000100" foes="0010000100000100" cont="0"/>
+        <request index="8"  response="0000000000000000" foes="0010000010000100" cont="0"/>
+        <request index="9"  response="0000000000000000" foes="0110000001111100" cont="0"/>
+        <request index="10" response="0000000000000011" foes="1110000001100011" cont="1"/>
+        <request index="11" response="0001000001000010" foes="0001000001000010" cont="1"/>
+        <request index="12" response="0000000000000010" foes="0000100001000010" cont="0"/>
+        <request index="13" response="0000011100000110" foes="0000011111000110" cont="0"/>
+        <request index="14" response="0000011001110110" foes="0000011001111110" cont="0"/>
+        <request index="15" response="0000010000100001" foes="0000010000100001" cont="0"/>
+    </junction>
+    <junction id="nod06" type="priority" x="150.00" y="0.00" incLanes="ed0706_0 ed0206_0" intLanes=":nod06_0_0 :nod06_4_0 :nod06_2_0 :nod06_5_0" shape="146.80,3.20 153.20,3.20 152.49,-0.36 151.60,-1.60 150.36,-2.49 148.76,-3.02 146.80,-3.20">
+        <request index="0" response="0000" foes="1000" cont="0"/>
+        <request index="1" response="0100" foes="0100" cont="1"/>
+        <request index="2" response="0000" foes="0010" cont="0"/>
+        <request index="3" response="0001" foes="0001" cont="1"/>
+    </junction>
+    <junction id="nod07" type="priority" x="150.00" y="50.00" incLanes="ed0607_0 ed0807_0" intLanes=":nod07_0_0 :nod07_4_0 :nod07_2_0 :nod07_5_0" shape="153.20,46.80 146.80,46.80 146.80,53.20 150.36,52.49 151.60,51.60 152.49,50.36 153.02,48.76">
+        <request index="0" response="0000" foes="1000" cont="0"/>
+        <request index="1" response="0100" foes="0100" cont="1"/>
+        <request index="2" response="0000" foes="0010" cont="0"/>
+        <request index="3" response="0001" foes="0001" cont="1"/>
+    </junction>
+    <junction id="nod08" type="priority" x="100.00" y="50.00" incLanes="ed0308_0 ed0708_0 ed0208_0 ed0508_0" intLanes=":nod08_0_0 :nod08_1_0 :nod08_16_0 :nod08_17_0 :nod08_4_0 :nod08_5_0 :nod08_6_0 :nod08_7_0 :nod08_8_0 :nod08_9_0 :nod08_18_0 :nod08_19_0 :nod08_12_0 :nod08_13_0 :nod08_14_0 :nod08_15_0" shape="96.80,57.20 103.20,57.20 103.64,54.98 104.20,54.20 104.98,53.64 105.98,53.31 107.20,53.20 107.20,46.80 104.98,46.36 104.20,45.80 103.64,45.02 103.31,44.02 103.20,42.80 96.80,42.80 96.36,45.02 95.80,45.80 95.02,46.36 94.02,46.69 92.80,46.80 92.80,53.20 95.02,53.64 95.80,54.20 96.36,54.98 96.69,55.98">
+        <request index="0"  response="0000000000000000" foes="1000010000100000" cont="0"/>
+        <request index="1"  response="0000000000000000" foes="0111110001100000" cont="0"/>
+        <request index="2"  response="0000001100000000" foes="0110001111100000" cont="1"/>
+        <request index="3"  response="0100001000010000" foes="0100001000010000" cont="1"/>
+        <request index="4"  response="0000001000000000" foes="0100001000001000" cont="0"/>
+        <request index="5"  response="0000011000000111" foes="1100011000000111" cont="0"/>
+        <request index="6"  response="0011011000000110" foes="0011111000000110" cont="0"/>
+        <request index="7"  response="0010000100000100" foes="0010000100000100" cont="0"/>
+        <request index="8"  response="0000000000000000" foes="0010000010000100" cont="0"/>
+        <request index="9"  response="0000000000000000" foes="0110000001111100" cont="0"/>
+        <request index="10" response="0000000000000011" foes="1110000001100011" cont="1"/>
+        <request index="11" response="0001000001000010" foes="0001000001000010" cont="1"/>
+        <request index="12" response="0000000000000010" foes="0000100001000010" cont="0"/>
+        <request index="13" response="0000011100000110" foes="0000011111000110" cont="0"/>
+        <request index="14" response="0000011000110110" foes="0000011000111110" cont="0"/>
+        <request index="15" response="0000010000100001" foes="0000010000100001" cont="0"/>
+    </junction>
+
+    <junction id=":nod01_9_0" type="internal" x="2.91" y="3.06" incLanes=":nod01_1_0 ed0201_0" intLanes=":nod01_4_0 :nod01_5_0 :nod01_6_0 :nod01_7_0"/>
+    <junction id=":nod01_10_0" type="internal" x="0.20" y="10.22" incLanes=":nod01_2_0 ed0201_0 ed0501_0" intLanes=":nod01_3_0 :nod01_7_0"/>
+    <junction id=":nod01_11_0" type="internal" x="10.24" y="0.23" incLanes=":nod01_8_0 ed0401_0 ed0501_0" intLanes=":nod01_0_0 :nod01_4_0"/>
+    <junction id=":nod02_9_0" type="internal" x="105.60" y="0.00" incLanes=":nod02_5_0 ed0102_0 ed0802_0" intLanes=":nod02_1_0 :nod02_6_0"/>
+    <junction id=":nod02_10_0" type="internal" x="98.40" y="0.00" incLanes=":nod02_7_0 ed0602_0" intLanes=":nod02_1_0 :nod02_2_0 :nod02_3_0 :nod02_4_0"/>
+    <junction id=":nod02_11_0" type="internal" x="94.40" y="0.00" incLanes=":nod02_8_0 ed0602_0 ed0802_0" intLanes=":nod02_0_0 :nod02_4_0"/>
+    <junction id=":nod03_9_0" type="internal" x="97.09" y="96.94" incLanes=":nod03_1_0 ed0403_0" intLanes=":nod03_4_0 :nod03_5_0 :nod03_6_0 :nod03_7_0"/>
+    <junction id=":nod03_10_0" type="internal" x="99.80" y="89.78" incLanes=":nod03_2_0 ed0403_0 ed0503_0" intLanes=":nod03_3_0 :nod03_7_0"/>
+    <junction id=":nod03_11_0" type="internal" x="89.76" y="99.77" incLanes=":nod03_8_0 ed0503_0 ed0803_0" intLanes=":nod03_0_0 :nod03_4_0"/>
+    <junction id=":nod04_9_0" type="internal" x="3.06" y="97.09" incLanes=":nod04_1_0 ed0104_0" intLanes=":nod04_4_0 :nod04_5_0 :nod04_6_0 :nod04_7_0"/>
+    <junction id=":nod04_10_0" type="internal" x="10.22" y="99.80" incLanes=":nod04_2_0 ed0104_0 ed0504_0" intLanes=":nod04_3_0 :nod04_7_0"/>
+    <junction id=":nod04_11_0" type="internal" x="0.23" y="89.76" incLanes=":nod04_8_0 ed0304_0 ed0504_0" intLanes=":nod04_0_0 :nod04_4_0"/>
+    <junction id=":nod05_16_0" type="internal" x="53.08" y="53.08" incLanes=":nod05_2_0 ed0105_0" intLanes=":nod05_5_0 :nod05_6_0 :nod05_7_0 :nod05_8_0 :nod05_9_0 :nod05_13_0 :nod05_14_0"/>
+    <junction id=":nod05_17_0" type="internal" x="57.16" y="57.16" incLanes=":nod05_3_0 ed0105_0 ed0405_0 ed0805_0" intLanes=":nod05_4_0 :nod05_9_0 :nod05_14_0"/>
+    <junction id=":nod05_18_0" type="internal" x="48.87" y="48.87" incLanes=":nod05_10_0 ed0305_0" intLanes=":nod05_0_0 :nod05_1_0 :nod05_5_0 :nod05_6_0 :nod05_13_0 :nod05_14_0 :nod05_15_0"/>
+    <junction id=":nod05_19_0" type="internal" x="46.04" y="46.04" incLanes=":nod05_11_0 ed0305_0 ed0405_0 ed0805_0" intLanes=":nod05_1_0 :nod05_6_0 :nod05_12_0"/>
+    <junction id=":nod06_4_0" type="internal" x="149.77" y="1.71" incLanes=":nod06_1_0 ed0206_0" intLanes=":nod06_2_0"/>
+    <junction id=":nod06_5_0" type="internal" x="148.26" y="0.29" incLanes=":nod06_3_0 ed0706_0" intLanes=":nod06_0_0"/>
+    <junction id=":nod07_4_0" type="internal" x="149.71" y="48.26" incLanes=":nod07_1_0 ed0807_0" intLanes=":nod07_2_0"/>
+    <junction id=":nod07_5_0" type="internal" x="148.29" y="49.77" incLanes=":nod07_3_0 ed0607_0" intLanes=":nod07_0_0"/>
+    <junction id=":nod08_16_0" type="internal" x="100.00" y="51.60" incLanes=":nod08_2_0 ed0208_0" intLanes=":nod08_5_0 :nod08_6_0 :nod08_7_0 :nod08_8_0 :nod08_9_0 :nod08_13_0 :nod08_14_0"/>
+    <junction id=":nod08_17_0" type="internal" x="100.00" y="55.60" incLanes=":nod08_3_0 ed0208_0 ed0508_0 ed0708_0" intLanes=":nod08_4_0 :nod08_9_0 :nod08_14_0"/>
+    <junction id=":nod08_18_0" type="internal" x="100.00" y="48.40" incLanes=":nod08_10_0 ed0308_0" intLanes=":nod08_0_0 :nod08_1_0 :nod08_5_0 :nod08_6_0 :nod08_13_0 :nod08_14_0 :nod08_15_0"/>
+    <junction id=":nod08_19_0" type="internal" x="100.00" y="44.40" incLanes=":nod08_11_0 ed0308_0 ed0508_0 ed0708_0" intLanes=":nod08_1_0 :nod08_6_0 :nod08_12_0"/>
+
+    <connection from="ed0102" to="ed0206" fromLane="0" toLane="0" via=":nod02_6_0" dir="s" state="M"/>
+    <connection from="ed0102" to="ed0208" fromLane="0" toLane="0" via=":nod02_7_0" dir="l" state="m"/>
+    <connection from="ed0102" to="ed0201" fromLane="0" toLane="0" via=":nod02_8_0" dir="t" state="m"/>
+    <connection from="ed0104" to="ed0405" fromLane="0" toLane="0" via=":nod04_6_0" dir="r" state="M"/>
+    <connection from="ed0104" to="ed0403" fromLane="0" toLane="0" via=":nod04_7_0" dir="R" state="M"/>
+    <connection from="ed0104" to="ed0401" fromLane="0" toLane="0" via=":nod04_8_0" dir="t" state="m"/>
+    <connection from="ed0105" to="ed0508" fromLane="0" toLane="0" via=":nod05_8_0" dir="r" state="M"/>
+    <connection from="ed0105" to="ed0503" fromLane="0" toLane="0" via=":nod05_9_0" dir="s" state="M"/>
+    <connection from="ed0105" to="ed0504" fromLane="0" toLane="0" via=":nod05_10_0" dir="l" state="m"/>
+    <connection from="ed0105" to="ed0501" fromLane="0" toLane="0" via=":nod05_11_0" dir="t" state="m"/>
+    <connection from="ed0201" to="ed0105" fromLane="0" toLane="0" via=":nod01_6_0" dir="r" state="M"/>
+    <connection from="ed0201" to="ed0104" fromLane="0" toLane="0" via=":nod01_7_0" dir="R" state="M"/>
+    <connection from="ed0201" to="ed0102" fromLane="0" toLane="0" via=":nod01_8_0" dir="t" state="m"/>
+    <connection from="ed0206" to="ed0607" fromLane="0" toLane="0" via=":nod06_2_0" dir="l" state="M"/>
+    <connection from="ed0206" to="ed0602" fromLane="0" toLane="0" via=":nod06_3_0" dir="t" state="m"/>
+    <connection from="ed0208" to="ed0807" fromLane="0" toLane="0" via=":nod08_8_0" dir="r" state="M"/>
+    <connection from="ed0208" to="ed0803" fromLane="0" toLane="0" via=":nod08_9_0" dir="s" state="M"/>
+    <connection from="ed0208" to="ed0805" fromLane="0" toLane="0" via=":nod08_10_0" dir="l" state="m"/>
+    <connection from="ed0208" to="ed0802" fromLane="0" toLane="0" via=":nod08_11_0" dir="t" state="m"/>
+    <connection from="ed0304" to="ed0401" fromLane="0" toLane="0" via=":nod04_0_0" dir="L" state="M"/>
+    <connection from="ed0304" to="ed0405" fromLane="0" toLane="0" via=":nod04_1_0" dir="l" state="m"/>
+    <connection from="ed0304" to="ed0403" fromLane="0" toLane="0" via=":nod04_2_0" dir="t" state="m"/>
+    <connection from="ed0305" to="ed0504" fromLane="0" toLane="0" via=":nod05_0_0" dir="r" state="M"/>
+    <connection from="ed0305" to="ed0501" fromLane="0" toLane="0" via=":nod05_1_0" dir="s" state="M"/>
+    <connection from="ed0305" to="ed0508" fromLane="0" toLane="0" via=":nod05_2_0" dir="l" state="m"/>
+    <connection from="ed0305" to="ed0503" fromLane="0" toLane="0" via=":nod05_3_0" dir="t" state="m"/>
+    <connection from="ed0308" to="ed0805" fromLane="0" toLane="0" via=":nod08_0_0" dir="r" state="M"/>
+    <connection from="ed0308" to="ed0802" fromLane="0" toLane="0" via=":nod08_1_0" dir="s" state="M"/>
+    <connection from="ed0308" to="ed0807" fromLane="0" toLane="0" via=":nod08_2_0" dir="l" state="m"/>
+    <connection from="ed0308" to="ed0803" fromLane="0" toLane="0" via=":nod08_3_0" dir="t" state="m"/>
+    <connection from="ed0401" to="ed0102" fromLane="0" toLane="0" via=":nod01_0_0" dir="L" state="M"/>
+    <connection from="ed0401" to="ed0105" fromLane="0" toLane="0" via=":nod01_1_0" dir="l" state="m"/>
+    <connection from="ed0401" to="ed0104" fromLane="0" toLane="0" via=":nod01_2_0" dir="t" state="m"/>
+    <connection from="ed0403" to="ed0305" fromLane="0" toLane="0" via=":nod03_6_0" dir="r" state="M"/>
+    <connection from="ed0403" to="ed0308" fromLane="0" toLane="0" via=":nod03_7_0" dir="R" state="M"/>
+    <connection from="ed0403" to="ed0304" fromLane="0" toLane="0" via=":nod03_8_0" dir="t" state="m"/>
+    <connection from="ed0405" to="ed0501" fromLane="0" toLane="0" via=":nod05_12_0" dir="r" state="m"/>
+    <connection from="ed0405" to="ed0508" fromLane="0" toLane="0" via=":nod05_13_0" dir="L" state="m"/>
+    <connection from="ed0405" to="ed0503" fromLane="0" toLane="0" via=":nod05_14_0" dir="l" state="m"/>
+    <connection from="ed0405" to="ed0504" fromLane="0" toLane="0" via=":nod05_15_0" dir="t" state="m"/>
+    <connection from="ed0501" to="ed0104" fromLane="0" toLane="0" via=":nod01_3_0" dir="r" state="m"/>
+    <connection from="ed0501" to="ed0102" fromLane="0" toLane="0" via=":nod01_4_0" dir="l" state="m"/>
+    <connection from="ed0501" to="ed0105" fromLane="0" toLane="0" via=":nod01_5_0" dir="t" state="m"/>
+    <connection from="ed0503" to="ed0308" fromLane="0" toLane="0" via=":nod03_3_0" dir="r" state="m"/>
+    <connection from="ed0503" to="ed0304" fromLane="0" toLane="0" via=":nod03_4_0" dir="l" state="m"/>
+    <connection from="ed0503" to="ed0305" fromLane="0" toLane="0" via=":nod03_5_0" dir="t" state="m"/>
+    <connection from="ed0504" to="ed0403" fromLane="0" toLane="0" via=":nod04_3_0" dir="r" state="m"/>
+    <connection from="ed0504" to="ed0401" fromLane="0" toLane="0" via=":nod04_4_0" dir="l" state="m"/>
+    <connection from="ed0504" to="ed0405" fromLane="0" toLane="0" via=":nod04_5_0" dir="t" state="m"/>
+    <connection from="ed0508" to="ed0802" fromLane="0" toLane="0" via=":nod08_12_0" dir="r" state="m"/>
+    <connection from="ed0508" to="ed0807" fromLane="0" toLane="0" via=":nod08_13_0" dir="s" state="m"/>
+    <connection from="ed0508" to="ed0803" fromLane="0" toLane="0" via=":nod08_14_0" dir="l" state="m"/>
+    <connection from="ed0508" to="ed0805" fromLane="0" toLane="0" via=":nod08_15_0" dir="t" state="m"/>
+    <connection from="ed0602" to="ed0208" fromLane="0" toLane="0" via=":nod02_3_0" dir="r" state="M"/>
+    <connection from="ed0602" to="ed0201" fromLane="0" toLane="0" via=":nod02_4_0" dir="s" state="M"/>
+    <connection from="ed0602" to="ed0206" fromLane="0" toLane="0" via=":nod02_5_0" dir="t" state="m"/>
+    <connection from="ed0607" to="ed0708" fromLane="0" toLane="0" via=":nod07_0_0" dir="l" state="M"/>
+    <connection from="ed0607" to="ed0706" fromLane="0" toLane="0" via=":nod07_1_0" dir="t" state="m"/>
+    <connection from="ed0706" to="ed0602" fromLane="0" toLane="0" via=":nod06_0_0" dir="r" state="M"/>
+    <connection from="ed0706" to="ed0607" fromLane="0" toLane="0" via=":nod06_1_0" dir="t" state="m"/>
+    <connection from="ed0708" to="ed0803" fromLane="0" toLane="0" via=":nod08_4_0" dir="r" state="m"/>
+    <connection from="ed0708" to="ed0805" fromLane="0" toLane="0" via=":nod08_5_0" dir="s" state="m"/>
+    <connection from="ed0708" to="ed0802" fromLane="0" toLane="0" via=":nod08_6_0" dir="l" state="m"/>
+    <connection from="ed0708" to="ed0807" fromLane="0" toLane="0" via=":nod08_7_0" dir="t" state="m"/>
+    <connection from="ed0802" to="ed0201" fromLane="0" toLane="0" via=":nod02_0_0" dir="r" state="m"/>
+    <connection from="ed0802" to="ed0206" fromLane="0" toLane="0" via=":nod02_1_0" dir="l" state="m"/>
+    <connection from="ed0802" to="ed0208" fromLane="0" toLane="0" via=":nod02_2_0" dir="t" state="m"/>
+    <connection from="ed0803" to="ed0304" fromLane="0" toLane="0" via=":nod03_0_0" dir="L" state="M"/>
+    <connection from="ed0803" to="ed0305" fromLane="0" toLane="0" via=":nod03_1_0" dir="l" state="m"/>
+    <connection from="ed0803" to="ed0308" fromLane="0" toLane="0" via=":nod03_2_0" dir="t" state="m"/>
+    <connection from="ed0805" to="ed0503" fromLane="0" toLane="0" via=":nod05_4_0" dir="r" state="m"/>
+    <connection from="ed0805" to="ed0504" fromLane="0" toLane="0" via=":nod05_5_0" dir="R" state="m"/>
+    <connection from="ed0805" to="ed0501" fromLane="0" toLane="0" via=":nod05_6_0" dir="l" state="m"/>
+    <connection from="ed0805" to="ed0508" fromLane="0" toLane="0" via=":nod05_7_0" dir="t" state="m"/>
+    <connection from="ed0807" to="ed0706" fromLane="0" toLane="0" via=":nod07_2_0" dir="r" state="M"/>
+    <connection from="ed0807" to="ed0708" fromLane="0" toLane="0" via=":nod07_3_0" dir="t" state="m"/>
+
+    <connection from=":nod01_0" to="ed0102" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":nod01_1" to="ed0105" fromLane="0" toLane="0" via=":nod01_9_0" dir="l" state="m"/>
+    <connection from=":nod01_9" to="ed0105" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod01_2" to="ed0104" fromLane="0" toLane="0" via=":nod01_10_0" dir="t" state="m"/>
+    <connection from=":nod01_10" to="ed0104" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod01_3" to="ed0104" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod01_4" to="ed0102" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod01_5" to="ed0105" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod01_6" to="ed0105" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod01_7" to="ed0104" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nod01_8" to="ed0102" fromLane="0" toLane="0" via=":nod01_11_0" dir="t" state="m"/>
+    <connection from=":nod01_11" to="ed0102" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod02_0" to="ed0201" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod02_1" to="ed0206" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod02_2" to="ed0208" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod02_3" to="ed0208" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod02_4" to="ed0201" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod02_5" to="ed0206" fromLane="0" toLane="0" via=":nod02_9_0" dir="t" state="m"/>
+    <connection from=":nod02_9" to="ed0206" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod02_6" to="ed0206" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod02_7" to="ed0208" fromLane="0" toLane="0" via=":nod02_10_0" dir="l" state="m"/>
+    <connection from=":nod02_10" to="ed0208" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod02_8" to="ed0201" fromLane="0" toLane="0" via=":nod02_11_0" dir="t" state="m"/>
+    <connection from=":nod02_11" to="ed0201" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod03_0" to="ed0304" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":nod03_1" to="ed0305" fromLane="0" toLane="0" via=":nod03_9_0" dir="l" state="m"/>
+    <connection from=":nod03_9" to="ed0305" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod03_2" to="ed0308" fromLane="0" toLane="0" via=":nod03_10_0" dir="t" state="m"/>
+    <connection from=":nod03_10" to="ed0308" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod03_3" to="ed0308" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod03_4" to="ed0304" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod03_5" to="ed0305" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod03_6" to="ed0305" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod03_7" to="ed0308" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nod03_8" to="ed0304" fromLane="0" toLane="0" via=":nod03_11_0" dir="t" state="m"/>
+    <connection from=":nod03_11" to="ed0304" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod04_0" to="ed0401" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":nod04_1" to="ed0405" fromLane="0" toLane="0" via=":nod04_9_0" dir="l" state="m"/>
+    <connection from=":nod04_9" to="ed0405" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod04_2" to="ed0403" fromLane="0" toLane="0" via=":nod04_10_0" dir="t" state="m"/>
+    <connection from=":nod04_10" to="ed0403" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod04_3" to="ed0403" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod04_4" to="ed0401" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod04_5" to="ed0405" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod04_6" to="ed0405" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod04_7" to="ed0403" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nod04_8" to="ed0401" fromLane="0" toLane="0" via=":nod04_11_0" dir="t" state="m"/>
+    <connection from=":nod04_11" to="ed0401" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod05_0" to="ed0504" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod05_1" to="ed0501" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod05_2" to="ed0508" fromLane="0" toLane="0" via=":nod05_16_0" dir="l" state="m"/>
+    <connection from=":nod05_16" to="ed0508" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod05_3" to="ed0503" fromLane="0" toLane="0" via=":nod05_17_0" dir="t" state="m"/>
+    <connection from=":nod05_17" to="ed0503" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod05_4" to="ed0503" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod05_5" to="ed0504" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nod05_6" to="ed0501" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod05_7" to="ed0508" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod05_8" to="ed0508" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod05_9" to="ed0503" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod05_10" to="ed0504" fromLane="0" toLane="0" via=":nod05_18_0" dir="l" state="m"/>
+    <connection from=":nod05_18" to="ed0504" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod05_11" to="ed0501" fromLane="0" toLane="0" via=":nod05_19_0" dir="t" state="m"/>
+    <connection from=":nod05_19" to="ed0501" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod05_12" to="ed0501" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod05_13" to="ed0508" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":nod05_14" to="ed0503" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod05_15" to="ed0504" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod06_0" to="ed0602" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod06_1" to="ed0607" fromLane="0" toLane="0" via=":nod06_4_0" dir="t" state="m"/>
+    <connection from=":nod06_4" to="ed0607" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod06_2" to="ed0607" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod06_3" to="ed0602" fromLane="0" toLane="0" via=":nod06_5_0" dir="t" state="m"/>
+    <connection from=":nod06_5" to="ed0602" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod07_0" to="ed0708" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod07_1" to="ed0706" fromLane="0" toLane="0" via=":nod07_4_0" dir="t" state="m"/>
+    <connection from=":nod07_4" to="ed0706" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod07_2" to="ed0706" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod07_3" to="ed0708" fromLane="0" toLane="0" via=":nod07_5_0" dir="t" state="m"/>
+    <connection from=":nod07_5" to="ed0708" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod08_0" to="ed0805" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod08_1" to="ed0802" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod08_2" to="ed0807" fromLane="0" toLane="0" via=":nod08_16_0" dir="l" state="m"/>
+    <connection from=":nod08_16" to="ed0807" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod08_3" to="ed0803" fromLane="0" toLane="0" via=":nod08_17_0" dir="t" state="m"/>
+    <connection from=":nod08_17" to="ed0803" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod08_4" to="ed0803" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod08_5" to="ed0805" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod08_6" to="ed0802" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod08_7" to="ed0807" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod08_8" to="ed0807" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod08_9" to="ed0803" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod08_10" to="ed0805" fromLane="0" toLane="0" via=":nod08_18_0" dir="l" state="m"/>
+    <connection from=":nod08_18" to="ed0805" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod08_11" to="ed0802" fromLane="0" toLane="0" via=":nod08_19_0" dir="t" state="m"/>
+    <connection from=":nod08_19" to="ed0802" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nod08_12" to="ed0802" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":nod08_13" to="ed0807" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":nod08_14" to="ed0803" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nod08_15" to="ed0805" fromLane="0" toLane="0" dir="t" state="M"/>
+
+</net>

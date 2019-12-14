@@ -1,0 +1,22 @@
+O veículo tido como causador em uma colisão traseira, por exemplo, será aquele que incorrer ou levar outros a incorrerem em duas ou mais das situações descritas abaixo:
+
+     manobras de frenagem bruscas indevidas, levando o veículo que está atrás a colidir mesmo guardada uma certa distância de segurança;
+     aumento, não diminuição ou redução brusca de velocidade, quando veículos à frente já estão parados ou reduzindo a velocidade, ou em casos de haver quaisquer outros obstáculos à frente;
+     aumento ou redução de aceleração de modo repentino;
+     posição do veículo com proximidade exagerada à outro veículo pelo trânsito na via, registrado durante tempus collectio (tempo de coleta);
+     mudança brusca de sentido na via ou de posicionamento, quando afeta outros veículos.
+
+
+Em um caso de colisão frontal, o culpado será aquele que incorrer ou levar outros a incorrerem em situações como:
+
+      mudança repentina de sentido, indo em direção ao outro veículo;
+      aumento ou não diminuição de velocidade quando estiver indo em direção ao outro veículo parado ou em movimento;
+      mudança brusca de sentido ou de posicionamento na via, quando afeta outros veículos.
+
+ 
+ O último caso é o de colisão lateral, onde o veículo tido como causador será aquele que incorrer ou levar outros a incorrerem em situações como:
+
+      mudança repentina de sentido, indo em direção ao outro veículo;
+      aumento ou não diminuição de velocidade quando estiver indo em direção ao outro veículo parado ou em movimento;
+      mudança brusca de sentido ou de posicionamento na via, quando afeta outros veículos.
+

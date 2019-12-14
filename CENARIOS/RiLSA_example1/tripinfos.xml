@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on sáb 01 set 2018 17:40:26 -03 by SUMO gui Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/wagner/TCC/RiLSA_example1/rilsa1.net.xml"/>
+        <route-files value="/home/wagner/TCC/RiLSA_example1/genroutes.rou.xml"/>
+        <additional-files value="/home/wagner/TCC/RiLSA_example1/vtypes.add.xml,/home/wagner/TCC/RiLSA_example1/rilsa1_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/home/wagner/TCC/RiLSA_example1/tripinfos.xml"/>
+    </output>
+
+    <report>
+        <log value="/home/wagner/TCC/RiLSA_example1/sumo_log.txt"/>
+    </report>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
